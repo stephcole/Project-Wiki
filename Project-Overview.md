@@ -86,4 +86,3 @@ Important naming conventions to remember for this project:
    - lowercase, words separated by underscores
 - Constants
    - all uppercase, words separated by underscores
-ing
