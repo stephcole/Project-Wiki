@@ -72,10 +72,7 @@ Hopefully by being walked through this set up, you can see how there are gaps be
 
 #Static Files and Templates
 Different projects handle their static files and templates a little differently. For our project, we will be storing them in two places. The base project templates and static files will be stored in directories called 'templates' and 'static' at the app level.  For app-specific templates and static files we will be sotring them inside the specific app's directory.
-  - Always make sure you are following the convention of the project you are working on when creating these files.
-#########
-still need to edit here and below
-########
-- All of the static files should be within one of the folders within the static folder. The project is already set up to have that entire folder load when you use {% load staticfiles %}. This is the same as the 'assets' folder from your Hotel demo in the coursework (and static is more commonly used than assets). This is where you will find/add images, styling, and JavaScript.
-- All templates should be within the main template folder. You should create a sub-folder for your app's templates. You should name them utilizing your app name as part of the name to avoid multiple files with similar names. (Ex. The base in the FootyDemo is named footy_base.html not just base.html).
+- Always make sure you are following the convention of the project you are working on when creating these files.
+- All of your static files (css/javascript/images) should be stored in a directory in your app named 'static'. Inside the static directory should be ANOTHER directory with the same name as your app. The project is already set up to find templates and static files inside your app's directory using the {% load staticfiles %} template tag. This is the same as the 'assets' folder from your Hotel demo in the coursework (and static is more commonly used than assets). This is where you will find/add images, styling, and JavaScript.
+- All your app's templates should be within a directory in your app's directory called templates and thn with ANOTHER directory with the same name as your app.
 - When naming your views within your app's urls.py, again use a unique name so that the program can differentiate between views. If you just use name='home' and so does another student, the Django framework won't know which home to route to when using a {% url 'home' %} tag.
