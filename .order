@@ -1,5 +1,4 @@
 Project-Overview
-JSON
 Starting-the-Project
 Creating-Your-App
 Version-Control
@@ -7,3 +6,4 @@ Django-Basics
 Django-Templates
 Django-Forms
 GET-and-POST
+JSON
