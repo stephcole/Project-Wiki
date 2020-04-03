@@ -92,7 +92,7 @@ The last of these cases is the most interesting, because it’s what makes it po
 <form action="/your-name/" method="post">
     <label for ="your_name"> Your name: </label>
     <input id="your_name" type="text" name="your_name value="{{ current_name }}">
-    <input type="submit" value=OK">
+    <input type="submit" value="OK">
 </form>
 ```
 
@@ -200,24 +200,79 @@ All the form’s fields and their attributes will be unpacked into HTML markup f
 # **ModelForms**
 Using  Django Forms to write user data to model fields.
 
-If you’re building a database-driven app, chances are you’ll have forms that map closely to Django models. For instance, you might have a BlogComment model, and you want to create a form that lets people submit comments. 
+- If you’re building a database-driven app, chances are you’ll have forms that map closely to Django models. For instance, you might have a BlogComment model, and you want to create a form that lets people submit comments. 
 
-In this case, it would be redundant to define the field types in your form, because you’ve already defined the fields in your model.
+- In this case, it would be redundant to define the field types in your form, because you’ve already defined the fields in your model.
 
-For this reason, Django provides a helper class that lets you create a Form class from a Django model.
+- For this reason, Django provides a helper class that lets you create a Form class from a Django model.
 
 Example 1:
-![forms6.png](/.attachments/forms6-c86f025d-42c7-423f-84de-7abc97415449.png)
+```python
+from django.forms import ModelForm
+from myapp.models import Article
+ 
+# Create the form class
+class ArticleForm(ModelForm): 
+    class Meta: 
+        model = Article 
+        fields = ['pub_date', 'headline', 'content', 'reporter']
+```
 
 Example 2:
+```python
+from django.db import models 
+from django.forms import ModelForm
+ 
+TITLE_CHOICES = [ 
+    ('MR', 'Mr.'),
+    ('MRS', 'Mrs.'),
+    ('MS', 'Ms.'),
+]
 
-![forms7.png](/.attachments/forms7-bcc2523d-7c44-44b0-93a0-a8b05825a351.png)
+class Author(models.Model): 
+    name = models.CharField(max_length=100) 
+    title = models.CharField(max_length=3, choices=TITLE_CHOICES) 
+    birth_date = models.DateField(blank:True, null:True)
+ 
+    def __str__ (self): 
+        return self.name 
 
-This automatically creates a form based on the models of the Author class and Book class. However ModelForms also have a built-in `save()` method.
+class Book(models.Model): 
+    name = models.CharField(max_length=100) 
+    authors = models.ManyToManyField(Author)
+
+class AuthorForm(ModelForm): 
+    class Meta: 
+        model = Author 
+        fields = ['name', 'title', 'birth_date']
+ 
+class BookForm(ModelForm): 
+    class Meta:
+        model = Book 
+        fields = ['name', 'authors']
+```
+- This automatically creates a form based on the models of the Author class and Book class. However ModelForms also have a built-in `save()` method.
 
 
-***The save() method***
-Every ModelForm also has a save() method. This method creates and saves a database object from the data bound to the form. A subclass of ModelForm can accept an existing model instance as the keyword argument instance; if this is supplied, save() will update that instance. If it’s not supplied, save() will create a new instance of the specified model:
+###The save() method
+- Every ModelForm also has a save() method. This method creates and saves a database object from the data bound to the form. A subclass of ModelForm can accept an existing model instance as the keyword argument instance; if this is supplied, save() will update that instance. If it’s not supplied, save() will create a new instance of the specified model:
+
+```python
+from myapp.models import Article
+from myapp.forms import ArticleForm 
+
+# Create a form instance from POST data
+f = ArticleForm(request.POST) 
+# Save a new Article object from the form's data
+new_article = f.save() 
+# Create a form to edit an existing  article
+# but use POST data to populate the form
+a = Article.objects.get(pk=1)
+f = ArticleForm(request.POST, instance=a)
+f.save()
+```
+ 
+
 ![forms8.png](/.attachments/forms8-54cc1a5d-9578-4772-8f7d-1a2b82fc61a0.png)
 Note that if the form hasn’t been validated, calling save() will do so by checking form.errors. A ValueError will be raised if the data in the form doesn’t validate – i.e., if form.errors evaluates to True.
 
