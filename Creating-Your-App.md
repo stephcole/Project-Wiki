@@ -55,11 +55,14 @@ The basic steps for creating a brand new app (i.e. how to get through Story #1):
 - Register your app by including it in the Installed Apps list within the settings.py file.
 - Create a new templates directory in your app's directory. Within the templates directory create another subdirectory with the name of your app. Structuring your project directories like this is necessary because of how Django treats namespeces.  
   - The above means that, if I have an app named MyApp, the folder structure should look like this:
-    ├── MyApp
-    │....├── app stuff...
-    │....├── templates
-    │..........├── MyApp
-    │..................├── MyApp_home.html
+```
+├── MyApp
+│   ├── app stuff...
+│   ├── templates
+│       ├── MyApp
+│           └── MyApp_home.html
+
+```
 - The base template should extend our base.html and your home should extend _your_ base template. This is known as template inheritance.
 - Add a function to your views.py to render the home template. You cannot render a template without a matching views function.
 - Create a urls.py file for your app, add the appropriate code to register your url patterns, and include this urls in the main url.py file
