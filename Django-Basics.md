@@ -40,6 +40,31 @@ When we create an app within a Django project we get a folder structure like thi
     - models.py
     - tests.py
     - views.py
+
+The above are the files and directories that Django creates for us when we run the "startapp" command. Django is extremely customiable, so there are numerous other files and directories we can add to our app's directory for additional functionality.  There are some such files/directories that you will be required to add to your app for the purposes of this live project. Some of these include a urls.py file to store to store your app's url configurations, a forms.py file for connecting your models to your templates, a templates/AppName/ directory for storing app-specific templates, a static/AppName/ directory for storing app-specific css/javascript/images. There are other, optional files and directories you may may to add throughout the project such as an api.py file for abstracting out api logic from the views.  When these files and directories are added to your app, your app file structure should look like this:
+
+(the app name in this example is 'AppName')
+- AppName
+  - Migrations/
+  - static/
+    - AppName/
+      - images/
+        - some_image.png
+        - another_image.jpg
+      - css/
+        - appname_style.css
+  - templates/
+    - AppName/
+      - appname_base.html
+      - appname_home.html 
+  - __init.py
+  - admin.py
+  - apps.py
+  - forms.py
+  - models.py
+  - tests.py
+  - urls.py
+  - views.py  
 ---
 # File Explanations
 
@@ -47,7 +72,7 @@ When we create an app within a Django project we get a folder structure like thi
 - Django has a number of apps in your project from the start.  These can be seen in the settings.py file
 - There are many other built in Django apps you can add to projects by adding them to the INSTSALLED_APPS list.  When you add your own apps to a Django project, you must also add a link to the app configuration class
 
-- __init__.py: a blank python script that due to its special name let’s python know that this directory can be treated as a package
+- __init.py: a blank python script that due to its special name let’s python know that this directory can be treated as a package
 - settings.py: this is where you store all project settings
 - urls.py: this is a python script that will store all url patterns for the project
 - wsgi.py: this is a python script that acts as the web server gateway interface. It helps to deploy our web app to production
