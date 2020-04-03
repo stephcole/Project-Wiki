@@ -72,13 +72,18 @@
 - You can even have multiple keys within the context variable if there’s multiple types of data you want to display. You would just need to keep track of your key value pairs and make sure that you’re calling the right key for the value you’re looking for. The keys also need to be string values, as Django does not process integer values properly as keys. As you pull information from an API or data scraping, remember that you need to attach the information to your context variable, and know how it’s indexed within that dictionary, to get it to display within the template.
 
 #POST Request Variables
-Django can do a lot of the heavy lifting for you when it comes to webforms, as it will create the types of inputs you need and format them with a simple tag like {{ form.as_p }}. When using this process, you don’t need to worry much about how the variables get passed with the POST request. The main thing you need to know for this is that _every_ form _must_ have a CSRF token with it for authentication and security purposes. {% csrf_token %} is the Django tag to include this. Note if there is more than one form on the page, you need more than one CSRF token for validation. It would be great if the built in Django Forms covered all scenarios, but when you want to customize a form, or work with individual form values, it is necessary to understand how variables get defined, passed, and how to reference them.
+- Django can do a lot of the heavy lifting for you when it comes to webforms, as it will create the types of inputs you need and format them with a simple tag like {{ form.as_p }}. When using this process, you don’t need to worry much about how the variables get passed with the POST request. The main thing you need to know for this is that _every_ form _must_ have a CSRF token with it for authentication and security purposes. {% csrf_token %} is the Django tag to include this. Note if there is more than one form on the page, you need more than one CSRF token for validation. It would be great if the built in Django Forms covered all scenarios, but when you want to customize a form, or work with individual form values, it is necessary to understand how variables get defined, passed, and how to reference them.
 
-POST requests variables are also sent in a dictionary format. Defining the variables and their values is usually done utilizing a form. Within the html, you’ll see form tags, which denote that everything inside are part of what’s sent as the POST request.
-    <form method=”post”>There is a form inside here </form>
-There are many different types of elements that can be used to build a form. (See the w3Schools [Documentation on Forms](https://www.w3schools.com/html/html_forms.asp) for more). Any of these elements can pass information back to the server. The important attribute for the form element is it’s name attribute. The name is how you set the key for the dictionary, and the entry is how the value is set. For a simple text box, that will be the value entered by the user. For other types of inputs, this will be the value of the value attribute.
-For an example, let’s create a very simple form utilizing a text input, a radio button, and a drop down list. Your html form in Django would look something like this:
+- POST requests variables are also sent in a dictionary format. Defining the variables and their values is usually done utilizing a form. Within the html, you’ll see form tags, which denote that everything inside are part of what’s sent as the POST request.
 
+```html
+    <form method=”POST”>There is a form inside here </form>
+```
+
+- There are many different types of elements that can be used to build a form. (See the w3Schools [Documentation on Forms](https://www.w3schools.com/html/html_forms.asp) for more). Any of these elements can pass information back to the server. The important attribute for the form element is it’s name attribute. The name is how you set the key for the dictionary, and the entry is how the value is set. For a simple text box, that will be the value entered by the user. For other types of inputs, this will be the value of the value attribute.
+- For an example, let’s create a very simple form utilizing a text input, a radio button, and a drop down list. Your html form in Django would look something like this:
+
+```django
     <form method=”post”>
     {% csrf_token %}
         <label>Enter your name: </label>
@@ -97,18 +102,25 @@ For an example, let’s create a very simple form utilizing a text input, a radi
         </select>
         <button type=”submit” name=”submit” value=”submit”>Submit </button>
     </form>
+```
     
-So the user will fill in this form and hit the submit button. The request POST will include a dictionary object with the following keys: name, gender, mood, submit. These are the name attributes for each of the elements in the form. The full dictionary object might looks something like this: 
+- So the user will fill in this form and hit the submit button. The request POST will include a dictionary object with the following keys: name, gender, mood, submit. These are the name attributes for each of the elements in the form. The full dictionary object might looks something like this: 
     
+    
+```python
     {‘name’: ‘John Smith’, ‘gender’: ‘male’, ‘mood’: ‘goofy’, ‘submit’: ‘submit’}
+```
 
-The name will be whatever is entered into the text box. The value of gender will be the _value_ attribute’s value for the radio button selected, not the text for that option. Note the hypothetical dictionary used ‘male’ not ‘Male’ because it’s from the value attribute. The same thing is true with the select list, where the option value ‘goofy’ was the value rather than the whole text of ‘Looking to Goof Off!’. Even the submit button has a value. This way you could have more than one type of submit button and have them perform different functions based on the value passed with the POST request dictionary from the button pushed. 
+- The name will be whatever is entered into the text box. The value of gender will be the _value_ attribute’s value for the radio button selected, not the text for that option. Note the hypothetical dictionary used ‘male’ not ‘Male’ because it’s from the value attribute. The same thing is true with the select list, where the option value ‘goofy’ was the value rather than the whole text of ‘Looking to Goof Off!’. Even the submit button has a value. This way you could have more than one type of submit button and have them perform different functions based on the value passed with the POST request dictionary from the button pushed. 
 
-Accessing this POST request dictionary is the only remaining step to being able to process all types of requests. This is actually far more simple than you might think. Within Django, we pass the request variable into and out of various functions. The dictionary actually attaches to this variable, and we can access it easily from there using request.POST as the root for the dictionary object. So if we wanted to set the variable from the form above within a function in the views, we would simply do this:
+- Accessing this POST request dictionary is the only remaining step to being able to process all types of requests. This is actually far more simple than you might think. Within Django, we pass the request variable into and out of various functions. The dictionary actually attaches to this variable, and we can access it easily from there using request.POST as the root for the dictionary object. So if we wanted to set the variable from the form above within a function in the views, we would simply do this:
 
+    
+```python
     name = request.POST[‘name’]
     gender = request.POST[‘gender’]
     mood = request.POST[‘mood’]
+```
 
-These variables could then be used as typical variables within the function. You might have an if else statement based on mood and the possible values it could have. Just remember that every time there is a new request action, the dictionary with the request gets reset. So capture the variables you need before doing anything else with that request. If those variables need to get sent back, remember to make them part of the context dictionary. You can make some powerful dynamic content with simple forms once you understand how the variables work.
+- These variables could then be used as typical variables within the function. You might have an if else statement based on mood and the possible values it could have. Just remember that every time there is a new request action, the dictionary with the request gets reset. So capture the variables you need before doing anything else with that request. If those variables need to get sent back, remember to make them part of the context dictionary. You can make some powerful dynamic content with simple forms once you understand how the variables work.
 
