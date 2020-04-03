@@ -182,7 +182,7 @@ You can extend templates that already extend another template. Django Template L
 
 In the diagram below, the base.html is extended by the app_base and the footy_base, and those are each extended by the respective app's individual pages or templates. The full code for the rendered page, includes content from all three templates.
 
-![TemplateExtending.png](/.attachments/TemplateExtending-bbec049f-fb3c-4ad6-abe9-86bc1fd8f638.png)
+![Items.png](/.attachments/Items-4fe3ea14-052c-4af0-a086-60c621963dd0.png)
 
 
 
