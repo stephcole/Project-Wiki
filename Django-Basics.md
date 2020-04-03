@@ -59,6 +59,7 @@ The above are the files and directories that Django creates for us when we run t
       - appname_home.html 
   - __init.py
   - admin.py
+  - api.py (optional to abstract away API specific logic)
   - apps.py
   - forms.py
   - models.py
