@@ -14,12 +14,16 @@
 - Regular commenting for html will not work properly in Django templates! 
 - You need to use DTL comment notation (DTL in blue):
 
-      {# This is a line comment that will not render #}
+      
+```django
+{# This is a line comment that will not render #}
 
-      {# comment #} 
-            This is a block comment that will not render
-            and can be used for multiple lines of text
-      {# endcomment #}.
+{% comment %} 
+    This is a block comment that will not render
+    and can be used for multiple lines of text
+{% endcomment %}
+```
+
 - Also note, that depending on the IDE you use, Django template comments may not render in the IDE as you would expect comments to render.
 
 
@@ -34,10 +38,14 @@
   - These take a standard python function that accepts a request object as an argument and returns a response object.
   - Example of a FBV:
 
-        from django.shortcuts import render
+        
+```python
+from django.shortcuts import render
 
-        def somePageView(request):
-            return render(request, ‘someDirectory/someHtmlFile.html’)
+    def somePageView(request):
+        return render(request, ‘someDirectory/someHtmlFile.html’)
+```
+
 
   - The views accepts a single request object and uses the built-in render function to return a response and in the case of the above example, it displays the template someHtmlFile.html that is located in a directory called someDirectory.
   - All the logic for the view must be included in function based views, so FBVs can grow very large in size.
@@ -49,7 +57,11 @@
 #Variables 
 
 - Variables look like this:
-  - {{ something }}
+
+```
+     {{ something }}
+```
+
 - Variables get replaced with values when the template is evaluated.   When the template engine encounters a variable it evaluates the variable and replaces it with the result.
   - If you use a variable that doesn’t exist, Django will set the value to: ‘ ‘ (an empty string)
 - Syntax:
@@ -77,7 +89,9 @@
 #Tags
 
 - Tags look like this:
-  - {% something %}
+```
+    {% something %}
+```
 - Tags control the logic of the template.  They are more complex than variables, some create text in the output, some control program flow by performing loops or logic, and some load external information into the template to be used by later variables;
   - They function similarly to programing constructs such as ‘if’ tags for boolean tests and ‘for’ tags for looping.  There are many other tags as well and you can even create your own.
 - Some tags require beginning and ending tags
@@ -102,12 +116,14 @@
   - {% for something in some_list %} … {% endfor %}
     - loops over each item in an array, making the item available in a context variable
     - example of last two:
+```django
+{% for i in some_list %}
+     <tr class={% cycle 'row1' 'row2' %}>
+         {# code logic here #}
+     <//tr>
+{% endfor %}
+```
 
-          {% for i in some_list %}
-               <tr class={% cycle 'row1' 'row2' %}>
-                    {% comment %} insert code logic here {% endcomment %}
-               <//tr>
-          {% endfor %}
 
 #Template Inheritance
 
@@ -119,64 +135,79 @@
   - (*This is a really simple example just to show how template inheritance works, in an actual project there will usually be more complexities than this) 
   - Let’s say we have created a base.html file that includes all of our font, css, and javascript references.  We have also created a navbar.html file and a footer.html file that will display on every page of our site.  Besides these files, we have an example_page.html file that will display the actual contents of an individual page.  With these files, we can create a complete HTML page like this:
 
-        {% extends 'base.html' %}
-        {% block content %}
-        {% include 'navbar.html' %}
-        {% include 'example+pager.html' %}
-        {% include 'footer.html' %}
-        {% endblock %}
+        
+```django
+{% extends 'base.html' %}
+{% block content %}
+{% include 'navbar.html' %}
+{% include 'example+pager.html' %}
+{% include 'footer.html' %}
+{% endblock %}
+```
 
 - Example 2:
   - Let’s say we have a base template called example.html. This file looks like this:
 
-        {% block content %}
-            <p>Some example text</p>
-        {% endblock %}
+        
+```django
+{% block content %}
+     <p>Some example text</p>
+{% endblock %}
+```
 
-   - Let’s say we also have a template called extends_example.html that looks like this:
+- Let’s say we also have a template called extends_example.html that looks like this:
+  - In this example, only the latter sentence will show up as “Some example text” is being overwritten and replaced by the second file’s block content.
+         
+```django
+{% extends 'example.html' %}
+{% block content %}
+     <p>The previous example text will be replaced by this text</p>
+{% endblock %}
+```
 
-         {% extends 'example.html' %}
-         {% block content %}
-              <p>The previous example text will be replaced by this text</p>
-         {% endblock %}
-
-   - In this example, only the latter sentence will show up as “Some example text” is being overwritten and replaced by the second file’s block content.
 - Example 3:
    - Let’s say we have a base.html file that looks like this:
+```django
+    <!doctype html>
+    <html>
+        <head>
+            {% block head %}
+            {% endblock %}
+        </head>
+        <body>
+            {% block body %}
+            {% endblock %}
+        </body>
+    </html>
+```
+- And we have an index.html file that looks like this:
 
-         <!doctype html>
-         <html>
-              <head>
-                   {% block head %}
-                   {% endblock %}
-              </head>
-              <body>
-                   {% block body %}
-                   {% endblock %}
-              </body>
-         </html>
+         
+```django
+{% extends 'base.html' %}
+{% block head %}
+     <title>This Is An Exciting Title</title>
+{% endblock %}
+{% block body %}
+     <h1>Hello World!</h1>
+{% endblock %}
+```
 
-   - And we have an index.html file that looks like this:
+- The actual HTML that will display in the browser will then look like this:
 
-         {% extends 'base.html' %}
-         {% block head %}
-               <title>This Is An Exciting Title</title>
-         {% endblock %}
-         {% block body %}
-               <h1>Hello World!</h1>
-         {% endblock %}
+         
+```django
+<!doctype html>
+<html>
+     <head>
+         <title>This Is An Exciting Title</title>
+     </head>
+     <body>
+         <h1>Hello World!</h1>
+    </body>
+</html>
+```
 
-   - The actual HTML that will display in the browser will then look like this:
-
-         <!doctype html>
-         <html>
-              <head>
-                   <title>This Is An Exciting Title</title>
-              </head>
-              <body>
-                   <h1>Hello World!</h1>
-              </body>
-         </html>
 
 You can extend templates that already extend another template. Django Template Language is specifically designed to support this. So you might have a 'base.html' that contains all the header information for the entire site. You may also have the basic layout for your specific app, with it's own theme, in a 'app_base.html'. The 'app_base.html' would extend the 'base.html' and then individual templates within that app could extend 'app_base.html' and have the content of both of these templates.
 
