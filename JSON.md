@@ -26,7 +26,6 @@
 
 - Example 1:
 
-      
 ```python
     persons = { name:  “John”,  age: 31,  city:  “New York” }
 
@@ -35,7 +34,6 @@
 
 
 - Example 2:
-
       
 ```python
     text = '{"employees":[
@@ -47,9 +45,8 @@
     obj = json.parse(text)
     name = obj['employees'][1]['firstName'] + " " + obj['employees'][1]['lastName']
 ```
-
-
   - this code would result in name = 'Anna Smith'
+
 ---
 # Data Types
 
@@ -61,40 +58,53 @@
 
 # json.parse( ):
 
-- Python’s built in method to convert a string in JSON format into native Python dictionary objects
+Python’s built in method to convert a string in JSON format into native Python dictionary objects
 - Usage:
   - Imagine we received this text from a web server:
-
-        { "name":"Billy", "age":300, "city":"Seattle”}
+        
+```python
+    { "name":"Billy", "age":300, "city":"Seattle”}
+```
 
   - We can use the json.parse( ) to convert this text to a Python dictionary object object
 
-        obj = json.parse(‘{ "name":"Billy", "age":300, “city":"Seattle”}');
+        
+```python
+    obj = json.parse(‘{"name":"Billy","age":300,"city":"Seattle"}');
+```
 
   - We can now use the Python object in our views:
 
-        name = obj['name']
-        age = obj['age']
-        city = obj['city']
+        
+```python
+    name = obj['name']
+    age = obj['age']
+    city = obj['city']
+```
 
-   - When using json.parse( ) on a JSON derived from an array, the method will return a Python array, instead of a Python dictionary object. 
-- Parsing Dates:
+- When using json.parse( ) on a JSON derived from an array, the method will return a Python array, instead of a Python dictionary object. 
+
+Parsing Dates:
    - Date objects are not allowed in JSON so if you need to include one, write it as a string and convert it back later.
+ 
+```python
+    text = '{ "name":"John", "birth":"1986-12-14", "city":"New York"}'
+    obj = json.parse(text)
+    birth = datetime.datetime(obj['birth'])
+    demo = obj['name'] + ", " + birth
+```
 
-         text = '{ "name":"John", "birth":"1986-12-14", "city":"New York"}'
-         obj = json.parse(text)
-         birth = datetime.datetime(obj['birth'])
-         demo = obj['name'] + ", " + birth
+- “demo” becomes: 
 
-    - “demo” becomes: 
-
-          “John, Sat Dec 13 1986 16:00:00 GMT-0800 (Pacific Standard Time)”
+      “John, Sat Dec 13 1986 16:00:00 GMT-0800 (Pacific Standard Time)”
 
 # JSON "Beautify"
-The JSON response from an API can be difficult to understand and decipher with the format they are returned in. Sometimes there are nested dictionaries or other factors that need to be taken into consideration for the logic to get the correct element from the response. To make this part of the process easier, there is a method known as "beautify", which just means to put the code in a format that is easier for the human eye to decipher. [CodeBeautify.org](https://codebeautify.org/python-formatter-beautifier) has a great tool for this. 
+- The JSON response from an API can be difficult to understand and decipher with the format they are returned in. Sometimes there are nested dictionaries or other factors that need to be taken into consideration for the logic to get the correct element from the response. To make this part of the process easier, there is a method known as "beautify", which just means to put the code in a format that is easier for the human eye to decipher. [CodeBeautify.org](https://codebeautify.org/python-formatter-beautifier) has a great tool for this. 
 
-If you find that you do have nested dictionaries. You will need to use a series of variables inside brackets [ ] to get down to the element you want. For instance if you had a response like this (after beautify):
+- If you find that you do have nested dictionaries. You will need to use a series of variables inside brackets [ ] to get down to the element you want. For instance if you had a response like this (after beautify):
 
+    
+```python
     response = {
         'employees': {
             'managers': {
@@ -117,10 +127,12 @@ If you find that you do have nested dictionaries. You will need to use a series 
             }
         }
     }
-And you wanted to get the name of the first developer, you would need this code:
-
+```
+- And you wanted to get the name of the first developer, you would need this code:
+    
+```python
     obj = json.parse(response)
     name = obj['employees']['developers'][1]['firstName'] + ' ' + obj['employees']['developers'][1]['lastName']
-
-Name would be Peter Sherman.
+```
+- Name would be Peter Sherman.
     
