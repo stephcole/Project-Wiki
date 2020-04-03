@@ -16,11 +16,11 @@
 
       {# This is a line comment that will not render #}
 
-      {# comment #} This is a block comment that will not render {# endcomment #}.
-
-
-    - <mark style="background-color: lightblue">{#</mark> This is a line comment that will not render <mark style="background-color: lightblue">#}</mark>
-    - <mark style="background-color: lightblue">{% comment %}</mark> This is a block comment that will not render <mark style="background-color: lightblue">{% endcomment %}</mark>.
+      {# comment #} 
+            This is a block comment that will not render
+            and can be used for multiple lines of text
+      {# endcomment #}.
+- Also note, that depending on the IDE you use, Django template comments may not render in the IDE as you would expect comments to render.
 
 
 #Templating in Class based views and Function based views
