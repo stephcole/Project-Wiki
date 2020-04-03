@@ -21,52 +21,59 @@ Allows the creation of HTML dynamically (using templates)
 # Django project structure
 
 When first creating a Django project, the folder structure looks like:
-- [ Project_Name ]
-    - [ Project_Name ]
-      - __init__.py
-      - settings.py
-      - urls.py
-      - wsgi.py
-    - [app]
-    - [app]
-    - manage.py
+```
+├── ProjectName/
+│   ├── ProjectName/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── SomeApp/
+│   ├── SomeOtherApp/
+│   └── manage.py 
+```
 
 When we create an app within a Django project we get a folder structure like this:
-- [ Name_of_app ]
-    - Migrations (directory)
-    - __init__.py
-    - admin.py
-    - apps.py
-    - models.py
-    - tests.py
-    - views.py
+```
+├── AppName/
+│   ├── Migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py 
+```
 
 The above are the files and directories that Django creates for us when we run the "startapp" command. Django is extremely customiable, so there are numerous other files and directories we can add to our app's directory for additional functionality.  There are some such files/directories that you will be required to add to your app for the purposes of this live project. Some of these include a urls.py file to store to store your app's url configurations, a forms.py file for connecting your models to your templates, a templates/AppName/ directory for storing app-specific templates, a static/AppName/ directory for storing app-specific css/javascript/images. There are other, optional files and directories you may may to add throughout the project such as an api.py file for abstracting out api logic from the views.  When these files and directories are added to your app, your app file structure should look like this:
 
 (the app name in this example is 'AppName')
-- AppName
-  - Migrations/
-  - static/
-    - AppName/
-      - images/
-        - some_image.png
-        - another_image.jpg
-      - css/
-        - appname_style.css
-  - templates/
-    - AppName/
-      - appname_base.html
-      - appname_home.html 
-  - __init.py
-  - admin.py
-  - api.py (optional to abstract away API specific logic)
-  - apps.py
-  - forms.py
-  - models.py
-  - tests.py
-  - urls.py
-  - views.py  
----
+```
+├── AppName
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── api_service.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── static/
+│   │   └── AppName/
+│   │       ├── images/
+│   │       │   ├── some_image.png
+│   │       │   └── another_image.jpg
+│   │       └── css/
+│   │           └── appname_style.css
+│   ├── templates/
+│   │   └── AppName/
+│   │       ├── AppName_base.html
+│   │       └── AppName_home.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py 
+```
+--
 # File Explanations
 
 - Each app is a self contained package that should do only one thing
