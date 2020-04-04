@@ -28,22 +28,22 @@ See [this diagram](https://drive.google.com/file/d/1Tvwnru1X8jOcKuXz_wCfuD9e52a_
 
 ##3. Make Your Edits:
 
-This step seems fairly straightforward, but it can also be a tricky spot to be in. If you just stay on your working branch, and focus on your own edits, then there are no version control issues. But the reality is in a fast moving environment, you will need to be pulling the most recent master and updating your local branches, and possibly be switching between stories as code is sent back for edits. Not handling this properly can cause lots of issues. 
+- This step seems fairly straightforward, but it can also be a tricky spot to be in. If you just stay on your working branch, and focus on your own edits, then there are no version control issues. But the reality is in a fast moving environment, you will need to be pulling the most recent master and updating your local branches, and possibly be switching between stories as code is sent back for edits. Not handling this properly can cause lots of issues. 
 
-Make sure every time you are going to switch branches that you save and commit the code you've been working on before you switch branches. If you don't you may accidentally apply your edits to the branch you are switching to. If you do accidentally apply edits to the wrong branch, make sure to undo the changes as soon as you notice it using "git revert". If you are worried about losing code you've created in this process, copy the code and paste it in a text file so you can reference it and re-apply it if that code is lost. If you've committed changes you didn't mean to commit, make sure to revert or reset that commit.
+- Make sure every time you are going to switch branches that you save and commit the code you've been working on before you switch branches. If you don't you may accidentally apply your edits to the branch you are switching to. If you do accidentally apply edits to the wrong branch, make sure to undo the changes as soon as you notice it using "git revert". If you are worried about losing code you've created in this process, copy the code and paste it in a text file so you can reference it and re-apply it if that code is lost. If you've committed changes you didn't mean to commit, make sure to revert or reset that commit.
 
 ##4. Merge Master into Working Branch:
 
-The final step that needs to be performed before code can be added into the master branch is to bring the working branch current with the master and resolve any conflicts. Conflicts are a natural part of group projects, and resolving them means paying careful attention to what code is being overwritten. The steps for this process:
-   - Save and commit your final changes to your working branch
-   - Switch to the Master branch (aka checkout the master)
-   - Pull the most recent master branch
-   - Switch back to you working branch
-   - Merge the master branch _into_ your working branch
-   - Resolve any conflicts
-   - Check that your branch still works properly
+- The final step that needs to be performed before code can be added into the master branch is to bring the working branch current with the master and resolve any conflicts. Conflicts are a natural part of group projects, and resolving them means paying careful attention to what code is being overwritten. The steps for this process:
+   1. Save and commit your final changes to your working branch
+   2. Switch to the Master branch (aka checkout the master)
+   3. Pull the most recent master branch
+   4. Switch back to you working branch
+   5. Merge the master branch _into_ your working branch
+   6. Resolve any conflicts
+   7. Check that your branch still works properly
 
-If you are not comfortable with the conflict resolution process at this time, your instructor will handle it, just abort the merge when conflicts occur. You will likely need to learn this skill on the job.
+- If you are not comfortable with the conflict resolution process at this time, your instructor will handle it, just abort the merge when conflicts occur. You will likely need to learn this skill on the job.
 
 ##5. Push Branch and 6. Pull Request:
 
