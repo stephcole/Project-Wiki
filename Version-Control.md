@@ -47,7 +47,7 @@ See [this diagram](https://drive.google.com/file/d/1Tvwnru1X8jOcKuXz_wCfuD9e52a_
 
 ##5. Push Branch and 6. Pull Request:
 
-Once you have your working branch up to date with the master and working the way you want, you submit your work by pushing that branch to the remote server and creating a pull request. This nomenclature can be confusing. Just remember that you push up and pull down or pull into. The pull request is a request that your code be pulled into the master branch, and your instructor will pull your branch to check your work. 
+- Once you have your working branch up to date with the master and working the way you want, you submit your work by pushing that branch to the remote server and creating a pull request. This nomenclature can be confusing. Just remember that you push up and pull down or pull into. The pull request is a request that your code be pulled into the master branch, and your instructor will pull your branch to check your work. 
 
 #Other Notes:
 
