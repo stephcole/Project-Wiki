@@ -73,7 +73,7 @@ The above are the files and directories that Django creates for us when we run t
 │   ├── urls.py
 │   └── views.py 
 ```
---
+---
 # File Explanations
 
 - Each app is a self contained package that should do only one thing
