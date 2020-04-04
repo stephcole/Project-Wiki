@@ -39,7 +39,18 @@
 ####Method 2:
 - rollback and then migrate again
 - You should choose this method if the first method fails or if you don’t want a bunch of migration files in your app.
+- Follow these steps:
+   - Rollback to the most recent common migration between the branches, using the command: `python manage.py migrate myapp my_most_recent_common_migration`
+   - remove both migrations and execute `python manage.py makemigrations` and `python manage.py migrate`, obtaining one migration with the changes from 0003_something.py and 0003_something_else.py combined. 
 
+####Method 3:
+- manually delete the conflicting migrations and the database
+- Only use this method if the other two methods fails.  This can cause version control issues for others)
+- Follow these steps:
+  - manually delete the sqlite database (This needs to be done on your comnputer's file explorer and NOT within your IDE. 
+  - manually delete the conflicting migrations files
+  - execute `python manage.py makemigrations`
+  - execute `python manage.py migrate`
 
 
 
