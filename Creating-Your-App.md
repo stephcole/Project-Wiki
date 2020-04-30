@@ -34,8 +34,8 @@ There are 3 distinct portions of the app that you'll be trying to create, and we
 #File Structure
 
 A large project will always have a specific layout to how files are organized. Please look carefully at our structure and make sure that you are putting your code in the right places. You should _always_ try to emulate the existing structure of a project when you are working within a group. Ask questions if you aren't sure how to do something.
-- Your virtual environment should have the same parent folder as your HobbyTRacker project. While you can have it anywhere that's separate from your project (i.e. neither it nor your project should ever be inside the other), for navigation it's easiest when it's a sibling folder to your project.
-- There are two different folders called "MainProject" because this is how Django always sets up the file structure, with duplicate naming. The Project wide .py files are all within HobbyTracker > MainProject > MainProject. This structure will be consistent regardless of naming conventions for any Django project.
+- Your virtual environment should have the same parent folder as your AppBuilder9000 project. While you can have it anywhere that's separate from your project (i.e. neither it nor your project should ever be inside the other), for navigation it's easiest when it's a sibling folder to your project.
+- There are two different folders called "AppBuilder9000" because this is how Django always sets up the file structure, with duplicate naming. The Project wide .py files are all within AppBuilder900 > AppBuilder. This structure will be consistent regardless of naming conventions for any Django project.
 
 #Dissecting a Story
 When looking at the story you are assigned, there are certain things to look for and be aware of. This is an example of what a story typically looks like:
