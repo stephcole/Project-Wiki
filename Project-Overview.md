@@ -1,14 +1,14 @@
 [[_TOC_]]
 
 
-# The Hobby Tracker Overview
+# The AppBuilder9000 Overview
 ---
 This project was built using the Django framework. This project is the interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
 Live Project Contact: 
 - Alan: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
 - Dhava: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
-- Brenton: (206) 488 - 3584 [brenton@learncodinganywhere.com]()
+- Ryan: (206) 488 - 3584 [liveprojectinstructo@learncodinganywhere.com]()
 
 
 **Slack:**
