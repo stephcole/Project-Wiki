@@ -1,9 +1,5 @@
 [[_TOC_]]
 
-#Footy Demo
-
-The Footy Demo app is an example of what you're trying to build. Feel free to look at it's code, play around with it's functionality, and thoroughly read the comments. You can refer to it whenever you need to get the basic idea of what you're trying to do, and apply it to your own app.
-
 #What You're Building
 
 There are 3 distinct portions of the app that you'll be trying to create, and we have individual stories to walk you through each portion.
@@ -14,7 +10,7 @@ There are 3 distinct portions of the app that you'll be trying to create, and we
 
 - Restful API interface
     - A Restful API is an internet service that returns usually JSON responses based on url/http queries. This is a commonly used element in web services.
-    - You'll add in a page for information from an API related in some way to the item your collection. Note that in the Footy Demo, the collection item is soccer jerseys, and the API gets soccer scores, so it doesn't need to be the exact same element.
+    - You'll add in a page for information from an API related in some way to the item your collection..
     - When picking an API you are looking for something that is:
         - Free to use
         - Allows non-commercial apps to integrate it (or doesn't require you to register your app at all)
@@ -24,7 +20,7 @@ There are 3 distinct portions of the app that you'll be trying to create, and we
 
 - Data Scraping with Beautiful Soup
     - Beautiful Soup and Data Scraping are methods of gathering information from existing web pages.
-    - You'll be pulling information from a section of a web page to integrate into your app. Again, this can be a related page, as with the Footy Demo app that grabs news items from the MLS soccer news page.
+    - You'll be pulling information from a section of a web page to integrate into your app. Again, this can be a related page.
     - When picking a page to scrape you are looking for:
         - A page that uses ids and/or classes within the source
         - A page that has a unique class or id for the section(s) you want to pull information from
