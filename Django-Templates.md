@@ -31,7 +31,7 @@
 - The views.py file adds logic to HTTP requests and responses. If we visualize how a Django webpage is displayed the process goes like this:
   1. A user enters in a URL like someurl.com
   2. A urls.py file identifies the proper URL route
-  3. The views.py file associated with that URL route handles the HTTP request, specifies the proper template, model (if necessary), and any logic neccaessary.
+  3. The views.py file associated with that URL route handles the HTTP request, specifies the proper template, model (if necessary), and any logic neccessary.
   4. The views.py file then sends back an HTTP response to the user.
   5. This process happens over and over again for each webpage within a Django site.
 - Function-Based Views (FBV):
