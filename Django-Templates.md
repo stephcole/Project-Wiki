@@ -140,7 +140,7 @@ from django.shortcuts import render
 {% extends 'base.html' %}
 {% block content %}
 {% include 'navbar.html' %}
-{% include 'example+pager.html' %}
+{% include 'example_page.html' %}
 {% include 'footer.html' %}
 {% endblock %}
 ```
