@@ -47,7 +47,7 @@ A quick discussion during the daily stand-up that explains what was helpful and 
 
 The code summary is a useful tool for your job search. Think of it as a document that shows the most impressive things you did and learned over the course of the project. Try to gather screenshots and code snippets. Many people choose to use github to organize their retrospective. It is ok to upload code snippets to GitHub,  just don't upload the entire project. This is a [link](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to another summary as an example. It is important to get the materials you need from Azure DevOps by monday, because we may need space for more students. Email LiveProjectDirector@LearnCodingAnywhere.com if you know you will need more time.
 
-**Stories**
+**Stories:**
 Students must complete their stories up to and including story 4 before moving on to Job Placement. This means that if you do not finish up to story 4 by the time you would normally be starting Job Placement, you will need to stay on Live Project until you do so. The vast majority of students accomplish this in the given two week time frame, remember to reach out if you get stuck for too long!
 
 **Final Essay:** 
