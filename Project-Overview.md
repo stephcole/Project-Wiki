@@ -8,7 +8,9 @@ This project was built using the Django framework. This project is the interacti
 Live Project Contact: 
 - Alan: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
 - Dhava: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
-- Ryan: (206) 488 - 3584 [liveprojectinstructor@learncodinganywhere.com]()
+- Ryan: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
+- Lewis: (360) 690 - 6064 [liveprojectinstructor@learncodinganywhere.com]()
+- Jon: (360) 690 - 6064 [liveprojectinstructor@learncodinganywhere.com]()
 
 
 **Slack:**
