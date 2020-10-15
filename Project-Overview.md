@@ -17,7 +17,7 @@ Live Project Contact:
 - Team Communication
 - Collaborative Conversations
 [Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
-- Use @Alan / @Ryan  / @Dhava to tag instructors
+- Use @Jon / @Lewis / @Ryan  / @Dhava to tag instructors
 
 **Google Hangout:**
 - Daily Stand-ups (11:30 am PT) **Required**
