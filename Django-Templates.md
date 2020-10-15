@@ -23,8 +23,6 @@
     and can be used for multiple lines of text
 {% endcomment %}
 ```
--this is some stuff we  added
-
 - Also note, that depending on the IDE you use, Django template comments may not render in the IDE as you would expect comments to render.
 
 
