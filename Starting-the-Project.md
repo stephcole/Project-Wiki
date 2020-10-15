@@ -6,9 +6,9 @@
     - Click "clone" in the upper right hand corner and copy the URL to your clipboard.
     - Open up PyCharm, close any existing project
     - Click "Check out from Version Control" and select Git from the menu
-    - Paste the URL from Azure into the URL input and click test
+    - Paste the URL from Azure into the URL input
     - Generate Git credentials if needed
-    - Once Test returns successful, Click the "Clone" button
+    - Click the "Clone" button
 
 
 # Starting a new Django project:
