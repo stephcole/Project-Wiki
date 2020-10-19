@@ -9,8 +9,8 @@ Live Project Contact:
 - Alan: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
 - Dhava: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
 - Ryan: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
-- Lewis: (360) 690 - 6064 [liveprojectinstructor@learncodinganywhere.com]()
-- Jon: (360) 690 - 6064 [liveprojectinstructor@learncodinganywhere.com]()
+- Lewis: [liveprojectinstructor@learncodinganywhere.com]()
+- Jon: [liveprojectinstructor@learncodinganywhere.com]()
 
 
 **Slack:**
