@@ -65,5 +65,5 @@ See [this diagram](https://drive.google.com/file/d/1Tvwnru1X8jOcKuXz_wCfuD9e52a_
 
 - For merging the master into your working branch and resolving merge conflicts, we've created [this tutorial](https://docs.google.com/document/d/1sm7MpKOSeVj1jdmvpVM80Hv1g7iqqqu8EFQT2nRFF1o/edit?usp=sharing)
 
-For more documentation on PyCharm version control, [look here](https://www.jetbrains.com/help/pycharm/version-control-reference.html)
+For more documentation on PyCharm version control, [look here](https://www.jetbrains.com/help/pycharm/settings-version-control.html)
 
