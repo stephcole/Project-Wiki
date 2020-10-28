@@ -3,7 +3,6 @@
 # **Our Guides**
 - [Live Project Golden Rules](https://docs.google.com/document/d/1qfpvnufwzqpo4S3mzIaTabQZ5nPr1CHiq1gnr_ZXLPk/edit?usp=sharing)
 - [Merge Conflict Resolution](https://docs.google.com/document/d/1sm7MpKOSeVj1jdmvpVM80Hv1g7iqqqu8EFQT2nRFF1o/edit?usp=sharing)
-- [Python Video Reference](https://docs.google.com/spreadsheets/d/1mWVg9y-Ga7rFcFAOTNhu51rYIBwzLveQjbO2Zv3vi9M/edit?usp=sharing) -relates videos in LMS course to story numbers in Live Project
 
 
 # **Finding APIs**
