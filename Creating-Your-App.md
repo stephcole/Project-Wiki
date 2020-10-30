@@ -14,7 +14,7 @@ There are 3 distinct portions of the app that you'll be trying to create, and we
     - When picking an API you are looking for something that is:
         - Free to use
         - Allows non-commercial apps to integrate it (or doesn't require you to register your app at all)
-        - Has no authorization or uses an APIKey (OAuth is too complicated)
+        - Has no authorization or uses a free APIKey (OAuth is too complicated)
         - Has good documentation for how to utilize it
     - You are asked to pick an API at the beginning so it can be checked for these elements. You can change it later if needed.
 
