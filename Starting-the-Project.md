@@ -31,6 +31,11 @@
     - To install the requirements:
       - Run the following command after activating your virtual environment.
       - command: _pip install -r requirements.txt_
+- _Fourth_ — Set the Python Interpreter 
+     - In Pycharm, go to File > Settings > Project:Appbuilder9000 > Project Interpreter
+  - Click on the gear icon next to the drop down menu for the Project Interpreter > Add
+  - In Virtualenv Environment, select the radio button for 'Existing Environment' and click on the ellipsis '...'.
+  - Navigate to the location of your virtual 
 
 
 [Cloning and Setting Up the Project Demo](https://drive.google.com/file/d/1O7kLTby5iLOo9tAdMX0-SPLtfl1_OPqf/view?usp=sharing) - done on a Mac with instructions for PC.
