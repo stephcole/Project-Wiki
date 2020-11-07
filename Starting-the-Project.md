@@ -29,7 +29,9 @@
 - _Third_ — Run the requirements.txt file
     - A requirements file keeps a list of dependencies to be installed for a project
     - To install the requirements:
+      - Run the following command after activating your virtual environment.
       - command: _pip install -r requirements.txt_
+
 
 [Cloning and Setting Up the Project Demo](https://drive.google.com/file/d/1O7kLTby5iLOo9tAdMX0-SPLtfl1_OPqf/view?usp=sharing) - done on a Mac with instructions for PC.
 
