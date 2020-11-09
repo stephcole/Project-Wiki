@@ -43,10 +43,7 @@
 =========== This is where you should get to before Sprint Planning =========
 # Completing your First Story (Prep Story)
 
-The first story for every student will be to sign their name to our signin file. You will also need to include 3 elements of your planned project with this sign in:
-  - The collection/hobby you want to work with
-  - A free API associated with this topic
-  - A web page you want to pull information from
+The first story for every student will be to sign their name to our signin file. You will also need to include the collection/hobby you want to work with.
 
 Below are the steps to complete this story. Remember these steps whenever you are choosing stories, creating branches, and creating pull requests.
 
