@@ -6,6 +6,9 @@
 This project was built using the Django framework. This project is the interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
 Live Project Contact: 
+
+Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
+
 - Alan: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
 - Dhava: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
 - Ryan: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
