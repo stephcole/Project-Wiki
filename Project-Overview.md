@@ -9,11 +9,12 @@ Live Project Contact:
 
 Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
-- Alan: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
+
+- Jon: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
 - Dhava: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
-- Ryan: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
-- Lewis: [liveprojectinstructor@learncodinganywhere.com]()
-- Jon: [liveprojectinstructor@learncodinganywhere.com]()
+- Ryan: (206) 488 - 3584 [liveprojectinstructor@learncodinganywhere.com]()
+- Lewis: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
+
 
 
 **Slack:**
