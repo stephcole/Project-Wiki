@@ -35,7 +35,7 @@ Welcome to the Python Live Project! You will need to complete these steps prior 
       - command: _pip install -r requirements.txt_
 
 # 4. Set the Python Interpreter
-- Take a look at this document to set the [Python Interpreter ](https://docs.google.com/document/d/1V_Tq9yoVGBVbyjLB3dn6FNG-ThEMO-l8MXtRNWWVqJs/edit)
+- Take a look at this document for more guidance in setting the  [Python Interpreter ](https://docs.google.com/document/d/1V_Tq9yoVGBVbyjLB3dn6FNG-ThEMO-l8MXtRNWWVqJs/edit)
      - In Pycharm, go to File > Settings > Project:Appbuilder9000 > Project Interpreter
   - Click on the gear icon next to the drop down menu for the Project Interpreter > Add
   - In Virtualenv Environment, select the radio button for 'Existing Environment' and click on the ellipsis '...'.
