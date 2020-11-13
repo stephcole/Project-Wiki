@@ -1,5 +1,7 @@
 [[_TOC_]]
 
+Welcome to the Python Live Project! You will need to complete these steps prior to the Sprint Planning session. Please read the steps below carefully.
+
 # 1. Cloning the Project:
 - To start, you're going to need to clone the project onto your own computer.
     - In Azure DevOps, navigate into "Repos" and then into "Files"
