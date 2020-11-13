@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# Cloning the Project:
+# 1. Cloning the Project:
 - To start, you're going to need to clone the project onto your own computer.
     - In Azure DevOps, navigate into "Repos" and then into "Files"
     - Click "clone" in the upper right hand corner and copy the URL to your clipboard.
@@ -11,9 +11,7 @@
     - Click the "Clone" button
 
 
-# Starting a new Django project:
-
-- _First_ — Create a virtual Environment
+# 2. Create a Virtual Environment
   - You should always create a virtual environment when using Django
     - 'venv' allows you to have a virtual installation of python and packages on your computer
      - This is important because python packages get updated often and these changes can mess up backwards compatibility
@@ -22,16 +20,20 @@
   - To create a virtual environment using venv:
     - Navigate to a folder outside your current project
     - command: _python -m venv [name-of-virtual-env]_
-    - Be sure to activate the virtual environment before running any other commands!
+    - **Be sure to activate the virtual environment before running any other commands!**
 
-- _Second_ — Make sure we have the latest version of pip, the software that we use to install Django:
+# 3. Install Packages for the Project
+- Make sure you have the latest version of pip, the software that we use to install Django:
     - command: _python -m pip install --upgrade pip_
-- _Third_ — Run the requirements.txt file
+- Next, run the requirements.txt file
     - A requirements file keeps a list of dependencies to be installed for a project
-    - To install the requirements:
+  - Navigate to the location of the requirements.txt file
+  - To install the requirements:
       - Run the following command after activating your virtual environment.
       - command: _pip install -r requirements.txt_
-- _Fourth_ — [Set the Python Interpreter ](https://docs.google.com/document/d/1V_Tq9yoVGBVbyjLB3dn6FNG-ThEMO-l8MXtRNWWVqJs/edit)
+
+# 4. Set the Python Interpreter
+- Take a look at this document to set the [Python Interpreter ](https://docs.google.com/document/d/1V_Tq9yoVGBVbyjLB3dn6FNG-ThEMO-l8MXtRNWWVqJs/edit)
      - In Pycharm, go to File > Settings > Project:Appbuilder9000 > Project Interpreter
   - Click on the gear icon next to the drop down menu for the Project Interpreter > Add
   - In Virtualenv Environment, select the radio button for 'Existing Environment' and click on the ellipsis '...'.
