@@ -6,16 +6,20 @@ Below are the steps to complete this story. Remember these steps whenever you ar
 
 [Sign In Story Demo](https://drive.google.com/file/d/1jtjKTZNbLiFrVS9bwg6WFI3ws3_4BXqa/view?usp=sharing) done on Mac with instructions for PC.
 
-- Find your Sign-In story and move it into the Active column
-- Create a new working branch 
-    - From within PyCharm, navigate in the menus to VCS > Git > Branches > New Branch
-        - Name your branch with initials-story#-SignIn convention
-- Verify you're on the new branch before making changes
-- Make local changes
-    - Open project in PyCharm
-    - Enter your name as a comment within the 'Sign In Sheet' (at the bottom of the files list), include information about your plan for your app
-- Save changes to the Sign In Sheet
-- Commit changes
+1. Find your Sign-In story and move it into the Active column
+2. Create a new remote working branch on Azure
+    -  Open your story on the Board. 
+    - Under 'Development', click on 'create a branch'
+![image.png](/.attachments/image-52868905-e322-4837-aa5b-21553ba12a53.png)
+     - Follow our branch naming convention outlined in [Project Overview](/Project-Overview): Your initials-story#-SignIn convention
+3. Checkout your branch on Pycharm
+   - In Pycharm, check out the master branch and update project. This both updates the master branch as well as the list of remote branches on Pycharm.
+   - You will now see your branch listed under 'Remote Branches'. Check out your branch.
+   - Verify you're on the new branch before making changes
+4. Make local changes on your branch in Pycharm
+    - Scroll to the bottom of the the project files and folders in Pycharm. Open signin.html.
+    - At the bottom of the list, enter your name and chosen topic for your app.
+5. Commit changes
     - Select Commit from the VCS menu
     - Write commit message
     - Click commit Button 
