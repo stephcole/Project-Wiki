@@ -1,4 +1,4 @@
-# Completing your First Story (Prep Story)
+# Completing your Prep Story
 
 The first story for every student will be to sign their name to our signin file. You will also need to include the collection/hobby you want to work with.
 
