@@ -18,15 +18,16 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
 
 **Slack:**
-- Team Communication
-- Collaborative Conversations
-[Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
-- Use @Jon / @Lewis / @Ryan  / @Dhava to tag instructors
+- [Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
+- Used for team communication and collaborative conversations
+- Best way to get a hold of instructors
+- Use @Jon / @Dhava / @Ryan  / @Lewis / to tag instructors
 
-**Google Hangout:**
-- Daily Stand-ups (11:30 am PT) **Required**
-- Team Meetings 
-[Link to Google Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
+**Google Meet:**
+- [Link to Google Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
+- Daily Stand-ups (11:30 am PST) **Required**
+- Used for Team Meetings and screenshares
+
 
 ---
 #Before your Sprint Planning Session
@@ -36,36 +37,36 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
 ---
 # Live Project Requirements
-**Daily Update Email:**
+- **Daily Update Email:** 
 (Daily)
-An email to the director (LiveProjectDirector@learncodinganywhere.com) at the end of your working day that replaces the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
-What struggles or roadblocks are you working on?
-What schedule will you be working tomorrow?
+An email to the Live Project director at the end of your working day that replaces the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
+  - What struggles or roadblocks are you working on?
+  - What schedule will you be working tomorrow?
 
-**Code Retrospective:**
+- **Code Retrospective:** 
 (Each Friday)
 A quick discussion during the daily stand-up that explains what was helpful and what was detrimental to productivity and team work flow. These meetings are meant to improve communication and coordination within the team (including project manager). Part of the Agile/Scrum method of Project Management.
 
-**Code Summaries:**
+- **Code Summaries:** 
 (Last Friday of the 2-week sprint)
-
 The code summary is a useful tool for your job search. Think of it as a document that shows the most impressive things you did and learned over the course of the project. Try to gather screenshots and code snippets. Many people choose to use github to organize their retrospective. It is ok to upload code snippets to GitHub,  just don't upload the entire project. This is a [link](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to another summary as an example. It is important to get the materials you need from Azure DevOps by monday, because we may need space for more students. Email LiveProjectDirector@LearnCodingAnywhere.com if you know you will need more time.
 
-**Stories:**
+- **Stories:**
 Students must complete their stories up to and including story 4 to pass the Live Project.  The vast majority of students are able to complete more than 4 stories in the given two week time frame. Remember to reach out if you get stuck for too long!
 
-**Final Essay:** 
+- **Final Essay:** 
 (Last Friday, found in LMS)
 <big>Only do the essay if you are finished will all Live Project Sprints!</big>
+In your essay, you should answer the following questions:
 
-FINAL ESSAY:
-- How was your experience working on a team of software developers?
-- What did you learn from working on a small piece of a larger project in the middle of its lifecycle?
-- What was your final take away from the Live Project? What would you do differently next time?
-- How can you apply what you've learned on the Live Project to your career as a software developer?
+  - How was your experience working on a team of software developers?
+  - What did you learn from working on a small piece of a larger project in the middle of its lifecycle?
+  - What was your final take away from the Live Project? What would you do differently next time?
+  - How can you apply what you've learned on the Live Project to your career as a software developer?
+
 ---
 # Branch Naming Conventions
-- For the sake of readability we have a naming convention to use for all your branches
+For the sake of readability we have a naming convention to use for all your branches
 
 Branch Naming Format:
 XX-####-[short_title]
