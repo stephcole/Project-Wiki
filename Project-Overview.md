@@ -30,11 +30,9 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
 ---
 #Before your Sprint Planning Session
-- [Step One](https://docs.google.com/document/d/144kD40TogedXC_IO6YjhrOlXa_Ar_3JzhOjyk3KuCEc/edit?usp=sharing)
-- [Step Two](https://docs.google.com/document/d/1Cj-kmw7ppEWJT3V0pXJYF1Oqz-Ilg7Bl9W5ZNuatNzs/edit?usp=sharing)
-- [Starting the Project](/Starting-the-Project) up to First Assignment
-(First Assignment to be done after your Sprint Planning session)
-- Read through [Creating your app](/Creating-Your-App)
+- Please read [Step One](https://docs.google.com/document/d/144kD40TogedXC_IO6YjhrOlXa_Ar_3JzhOjyk3KuCEc/edit?usp=sharing) and [Step Two](https://docs.google.com/document/d/1Cj-kmw7ppEWJT3V0pXJYF1Oqz-Ilg7Bl9W5ZNuatNzs/edit?usp=sharing)
+- Follow the steps in [Starting the Project](/Starting-the-Project) 
+- Read through the rest of the wiki but do not start on any stories
 
 ---
 # Live Project Requirements
