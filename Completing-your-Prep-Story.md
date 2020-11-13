@@ -1,6 +1,6 @@
 # Completing your Prep Story
 
-The first story for every student will be to sign their name to our signin file. You will also need to include the collection/hobby you want to work with.
+The first story for every student will be to sign their name to our signin file. You will be expected to complete this **after** attending the Sprint Planning session. You will also need to include the collection/hobby you want to work with.
 
 Below are the steps to complete this story. Remember these steps whenever you are choosing stories, creating branches, and creating pull requests.
 
@@ -29,7 +29,7 @@ Below are the steps to complete this story. Remember these steps whenever you ar
         - Fill in Title, Description, and make sure your story item is attached under Work Item
         - Click Create
         - Ignore all options of clicking on the next page (do not approve, set for auto-complete, or abandon)
-- Take Story # 1 and begin building your app within the HobbyTracker project!
+- Take Story # 1 and begin building your app within the Appbuilder9000 project!
 
 
 
