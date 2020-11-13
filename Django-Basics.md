@@ -129,7 +129,7 @@ The above are the files and directories that Django creates for us when we run t
 - The template tags {% block %} and {% extends %} help to avoid repeating the same code over and over
 
 For more information on the DTL:
-- [See our wiki](/Django-Basics/Django-Templates)
+- [See our wiki](/Django-Templates)
 - [Django Project documentation](https://docs.djangoproject.com/en/2.2/ref/templates/language/)
 - [Template extending tutorial](https://tutorial.djangogirls.org/en/template_extending/)
 
