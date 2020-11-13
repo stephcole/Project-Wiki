@@ -25,6 +25,7 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
 **Google Meet:**
 - [Link to Google Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
+- Sprint Planning on the first Monday of your sprint (1:30 pm PST) **Required**
 - Daily Stand-ups (11:30 am PST) **Required**
 - Used for Team Meetings and screenshares
 
