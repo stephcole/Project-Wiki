@@ -20,10 +20,10 @@ Below are the steps to complete this story. Remember these steps whenever you ar
     - Scroll to the bottom of the the project files and folders in Pycharm. Open signin.html.
     - At the bottom of the list, enter your name and chosen topic for your app.
 5. Commit changes
-    - Select Commit from the VCS menu
-    - Write commit message
-    - Click commit Button 
-- Check all changes were committed
+    - Select Commit from the VCS menu or click on the green checkmark on the Git toolbar to commit your changes
+    - Write a short but descriptive commit message
+    - Click 'Commit' button 
+6. Check all changes were committed
     - Check Event Log or use $ git status from terminal (should say Clean Working Tree)
 - Push your branch to DevOps VCS > Git > Push
 - Return to Azure DevOps to Create a Pull request
