@@ -11,7 +11,7 @@ Below are the steps to complete this story. Remember these steps whenever you ar
     -  Open your story on the Board. 
     - Under 'Development', click on 'create a branch'
 ![image.png](/.attachments/image-52868905-e322-4837-aa5b-21553ba12a53.png)
-     - Follow our branch naming convention outlined in [Project Overview](/Project-Overview): Your initials-story#-SignIn convention
+     - Follow our branch naming convention outlined in [Project Overview](/Project-Overview): **[Your initials]-[story#]-[SignIn]** 
 3. Checkout your branch on Pycharm
    - In Pycharm, check out the master branch and update project. This both updates the master branch as well as the list of remote branches on Pycharm.
    - You will now see your branch listed under 'Remote Branches'. Check out your branch.
