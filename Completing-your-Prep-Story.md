@@ -25,8 +25,10 @@ Below are the steps to complete this story. Remember these steps whenever you ar
     - Click 'Commit' button 
 6. Check all changes were committed
     - Check Event Log or use $ git status from terminal (should say Clean Working Tree)
-- Push your branch to DevOps VCS > Git > Push
-- Return to Azure DevOps to Create a Pull request
+7. Push your branch to Azure DevOps 
+   - Method 1: VCS > Git > Push
+   - Method 2: Click on the green arrow in the top right corner of Pycharm
+8. Return to Azure DevOps to Create a Pull request
         - Go to Repos > Branches and locate your branch
         - Make sure there are commits ahead of the master
         - While hovering over your branch, click New pull request
