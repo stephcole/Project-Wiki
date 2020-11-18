@@ -36,7 +36,7 @@ Welcome to the Python Live Project! You will need to complete these steps prior 
 
 # 4. Set the Python Interpreter
 - Take a look at this document for more guidance in setting the  [Python Interpreter ](https://docs.google.com/document/d/1V_Tq9yoVGBVbyjLB3dn6FNG-ThEMO-l8MXtRNWWVqJs/edit)
-     - In Pycharm, go to File > Settings > Project:Appbuilder9000 > Project Interpreter
+     - In Pycharm, go to File > Settings > Project:Appbuilder9000 > Python Interpreter
   - Click on the gear icon next to the drop down menu for the Project Interpreter > Add
   - In Virtualenv Environment, select the radio button for 'Existing Environment' and click on the ellipsis '...'.
   - Navigate to your virtual environment's folder > Scripts > python.exe
