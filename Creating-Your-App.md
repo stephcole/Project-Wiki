@@ -46,7 +46,7 @@ When looking at the story you are assigned, there are certain things to look for
 #Starting an app
 The terminology with the Django Framework can be a little bit confusing. Many people think of an app or application as a single entity that exists separately from other pieces of software. In Django that is actually known as a Project. An Application in Django is a service within the Project that has a specific function. A single Django project can be made up of multiple apps, each with its own purpose. This helps to organize code and areas of concern. You are building a single app within our larger project. Django has some things pre-built and other things will require you to create new files. This is because different projects are set up slightly differently, and the built in allows for flexibility.
 
-The basic steps for creating a brand new app (i.e. how to get through Story #1):
+The basic steps for creating a brand new app (i.e. how to get through Story 1):
 - From your terminal use _python manage.py startapp <App_Name>_ where you name your App something relevant (not just App_Name)
 - Register your app by including it in the Installed Apps list within the settings.py file.
 - Create a new templates directory in your app's directory. Within the templates directory create another subdirectory with the name of your app. Structuring your project directories like this is necessary because of how Django treats namespeces.  
