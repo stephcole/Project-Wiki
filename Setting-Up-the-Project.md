@@ -2,6 +2,8 @@
 
 Welcome to the Python Live Project! You will need to complete these steps prior to the Sprint Planning session. Please read the steps below carefully.
 
+_If you are a student on the **Web Development Live Project**, please take a look at [this document](https://docs.google.com/document/d/16qNrvX4t7KAhHU0q1Y6te-C0xo7IfOa-NzXpctCSN18/edit?usp=sharing) to install Python before proceeding with cloning the project._
+
 # 1. Cloning the Project:
 - To start, you're going to need to clone the project onto your own computer.
     - In Azure DevOps, navigate into "Repos" and then into "Files"
