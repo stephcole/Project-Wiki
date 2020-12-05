@@ -66,5 +66,6 @@ https://pypi.org/project/urllib3/
 https://pypi.org/project/django-crispy-forms/
 [Documentation](https://django-crispy-forms.readthedocs.io/en/latest/)
 
-
-
+---
+#Writing your Code Summary
+[Sample code summary](https://github.com/BenjaminLSchwab/JobPlacementDashboard)
