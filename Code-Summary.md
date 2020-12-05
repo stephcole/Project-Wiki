@@ -7,12 +7,12 @@ For your code summary, you will need to:
 
 A README file should contain useful information about your project and serve as a kind of manual. You should not put every single line of code that you have written in this document. Just the code for key features in your app. If you wish to add all your code, you should do so by creating additional files in your repository.
 
-#Formating your README
+#Writing your README
 1. Start with an introduction, describing what your app is about.
 2. Create sections for CRUD functionality, Web Scraping, API, and Front end development. This depends on how many stories you have completed as well. You can refer to [this document](https://docs.google.com/document/d/1NuhWe3Sa0RPdyM4bPmrBe--P8V7ri8t5G9OipMEhdGk/edit?usp=sharing) for a template specific to our Python Live Project. It is always a good idea to customize it as you see fit.
 
 #README Syntax
-
+The README file uses markdown. Take a look
 
 
 [Github READMEs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes)
