@@ -39,10 +39,6 @@ https://pypi.org/project/chardet/
 - Support for the Internationalised Domain Names in Applications (IDNA) protocol as specified in RFC 5891. This is the latest version of the protocol and is sometimes referred to as “IDNA 2008”.
 https://pypi.org/project/idna/
 
-**numpy** 1.16.2
-- NumPy is the fundamental package for scientific computing with Python. It contains among other things.
-http://www.numpy.org/
-
 
 **pytz** 2018.9
 - pytz brings the Olson tz database into Python. This library allows accurate and cross platform timezone calculations using Python 2.4 or higher.
@@ -53,9 +49,7 @@ http://pytz.sourceforge.net/
 https://pypi.org/project/requests/
 [Documentation](https://2.python-requests.org/en/master/)
 
-**selenium** 3.141.0
-- The selenium package is used to automate web browser interaction from Python.
-https://pypi.org/project/selenium/
+
 
 **soupsieve** 1.7.2
 - Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4.
@@ -64,4 +58,11 @@ https://pypi.org/project/soupsieve/
 **urllib3** 1.24.1
 - urllib3 is a powerful, sanity-friendly HTTP client for Python. Much of the Python ecosystem already uses urllib3 and you should too. urllib3 brings many critical features that are missing from the Python standard libraries...
 https://pypi.org/project/urllib3/
+
+**crispyforms** 1.24.1
+- Django-crispy-forms is an application that helps to manage Django forms. It allows adjusting forms' properties (such as method, send button or CSS classes) on the backend without having to re-write them in the template.
+https://pypi.org/project/django-crispy-forms/
+[Documentation](https://django-crispy-forms.readthedocs.io/en/latest/)
+
+
 
