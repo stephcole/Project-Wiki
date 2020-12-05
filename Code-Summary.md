@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 #Writing your Code Summary
 For your code summary, you will need to:
 - Create a new repository in Github to store code snippets and screenshots of the work you have completed during your sprint. You can do this by creating files in your repository. Please **do not** push the entire project up to your repository. 
