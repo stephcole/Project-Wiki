@@ -5,6 +5,14 @@
 ---
 This project was built using the Django framework. This project is the interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
+
+#Before your Sprint Planning Session
+- Please read [Step One](https://docs.google.com/document/d/144kD40TogedXC_IO6YjhrOlXa_Ar_3JzhOjyk3KuCEc/edit?usp=sharing) and [Step Two](https://docs.google.com/document/d/1Cj-kmw7ppEWJT3V0pXJYF1Oqz-Ilg7Bl9W5ZNuatNzs/edit?usp=sharing)
+- Follow the steps in [Setting Up the Project](/Setting-Up-the-Project) 
+- Read through the rest of the wiki but do not start on any stories
+
+---
+
 **Live Project Contacts:**
 
 Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
@@ -31,12 +39,7 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
 
 ---
-#Before your Sprint Planning Session
-- Please read [Step One](https://docs.google.com/document/d/144kD40TogedXC_IO6YjhrOlXa_Ar_3JzhOjyk3KuCEc/edit?usp=sharing) and [Step Two](https://docs.google.com/document/d/1Cj-kmw7ppEWJT3V0pXJYF1Oqz-Ilg7Bl9W5ZNuatNzs/edit?usp=sharing)
-- Follow the steps in [Setting Up the Project](/Setting-Up-the-Project) 
-- Read through the rest of the wiki but do not start on any stories
 
----
 # Live Project Requirements
 - **Daily Update Email:** 
 (Daily)
