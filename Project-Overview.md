@@ -13,7 +13,7 @@ This project was built using the Django framework. This project is the interacti
 
 ---
 
-**Live Project Contacts:**
+#Live Project Contacts:
 
 Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
