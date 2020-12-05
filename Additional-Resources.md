@@ -3,7 +3,7 @@
 # **Our Guides**
 - [Live Project Golden Rules](https://docs.google.com/document/d/1qfpvnufwzqpo4S3mzIaTabQZ5nPr1CHiq1gnr_ZXLPk/edit?usp=sharing)
 - [Merge Conflict Resolution](https://docs.google.com/document/d/1sm7MpKOSeVj1jdmvpVM80Hv1g7iqqqu8EFQT2nRFF1o/edit?usp=sharing)
-
+---
 
 # **Finding APIs**
 **Programmable Web** 
@@ -17,6 +17,8 @@ https://www.programmableweb.com/
 - Log in with username: liveprojecttta email: liveprojectdummyacct@gmail.com password: 123qweASD!
 - Search for free APIs with auto generated keys (no need to sign up)
 https://rapidapi.com/
+
+---
 
 # **Python Packages** (Tool set)
 
