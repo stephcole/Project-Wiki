@@ -9,9 +9,9 @@ A README file should contain useful information about your project and serve as 
 
 #Formating your README
 1. Start with an introduction, describing what your app is about.
-2. Create sections for CRUD functionality, Web Scraping, API, and Front end development. This depends on how many stories you have completed as well. You can refer to [this document](https://docs.google.com/document/d/1NuhWe3Sa0RPdyM4bPmrBe--P8V7ri8t5G9OipMEhdGk/edit?usp=sharing) for a template specific to our Python Live Project. It is always a good idea to customize as you see fit.
+2. Create sections for CRUD functionality, Web Scraping, API, and Front end development. This depends on how many stories you have completed as well. You can refer to [this document](https://docs.google.com/document/d/1NuhWe3Sa0RPdyM4bPmrBe--P8V7ri8t5G9OipMEhdGk/edit?usp=sharing) for a template specific to our Python Live Project. It is always a good idea to customize it as you see fit.
 
-
+#README Syntax
 
 
 
