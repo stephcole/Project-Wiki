@@ -1,7 +1,7 @@
 [[_TOC_]]
 
 #Writing your Code Summary
-For your code summary, you will need to:
+It is important that you complete your Code Summary before moving on to your next course. It will be much easier to write your summary while your project is still fresh in your mind. For your code summary, you will need to:
 - Create a new repository in Github to store code snippets and screenshots of the work you have completed during your sprint. You can do this by creating files in your repository. Please **do not** push the entire project up to your repository. 
 - You will also need to create a README file to tell others(such as hiring managers) about what you did on your live project. Take a look at this [sample code summary](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to get a better idea of what is expected of you. 
 
@@ -14,5 +14,8 @@ A README file should contain useful information about your project and serve as 
 
 #README Syntax
 The README file uses markdown. Take a look at this [guide to Markdown](https://code.visualstudio.com/docs/languages/markdown). Github also provides [a brief article](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes) about writing READMEs. For a cheatsheet to Markdown syntax, take a look at [this document](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
+
+#Final words
+You are not required to submit your Code Summaries to us. However, we would be happy to look over your Code Summary and provide you with feedback. Do reach out over Slack or email if you would like us to do so. All the best!
 
 
