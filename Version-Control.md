@@ -50,7 +50,9 @@ See [this diagram](https://drive.google.com/file/d/1Tvwnru1X8jOcKuXz_wCfuD9e52a_
 - Once you have your working branch up to date with the master and working the way you want, you submit your work by pushing that branch to the remote server and creating a pull request. This nomenclature can be confusing. Just remember that you push up and pull down or pull into. The pull request is a request that your code be pulled into the master branch, and your instructor will pull your branch to check your work. 
 
 #Other Notes:
-
+- Once you've made a pull request for one story, you'll probably want to immediately start on another one. To get the commits you made on your previous branch to show up on your new branch, you'll want to merge from your previous branch into your new working branch. 
+[Here's a video explaining the process] 
+(https://youtu.be/v-ZsZPAUg9k)
 - Cloning refers to the very first time you pull the master branch from the remote server. Re-cloning means deleting the entire project and cloning it again.
 
 - To reduce switching back and forth between branches, utilize the remote repositories to view existing code. You can't run the code from the repository, but you can at least compare the actual code.
