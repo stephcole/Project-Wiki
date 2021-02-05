@@ -1,6 +1,12 @@
 [[_TOC_]]
 
-Take a look at this [video](https://drive.google.com/file/d/1uvJTekFHxaGc6YymHreBXr6HtMWItnXq/view?usp=sharing) to learn about how to use Developer Tools (Dev Tools).  There are timestamps below to help you navigate to different parts of the video.
+Take a look at this video to learn about how to use Developer Tools (Dev Tools).  There are timestamps below to help you navigate to different parts of the video.
+
+::: video
+<iframe width="896" height="504" src="https://www.youtube.com/embed/z5ioGKu0vAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+<br>
 
 _Star symbols_ ( <span style="color: gold"> &#9733; </span> ) _indicate very important information or a very useful feature._
 
