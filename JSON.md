@@ -4,7 +4,7 @@
 # What is JSON?
 
 - JSON stands for: JavaScript Object Notation.  It’s a lightweight format for storing and transmitting data and is often used when data is sent from a server to a web page.
-- In the past XML was used as the primary data format for transmitting data, but JSON has taken its place in recent tears because it is much more lightweight.
+- In the past XML was used as the primary data format for transmitting data, but JSON has taken its place in recent years because it is much more lightweight.
 - An example of JSON: 
 
       
@@ -53,7 +53,7 @@
 - In JSON, values MUST be one of the following types:
   - a string, a number, an object, an array, a boolean, null
     - (strings must use double quotes)
-- values CANNOT be:
+- Values CANNOT be:
   - a function, a date, undefined
 
 # json.parse( ):
