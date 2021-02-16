@@ -59,7 +59,7 @@ The basic steps for creating a brand new app (i.e. how to get through Story 1):
 │           └── MyApp_home.html
 
 ```
-- The base template should extend our base.html and your home should extend _your_ base template. This is known as template inheritance.
+-  Your home template should extend _your_ base template. This is known as template inheritance.
 - Add a function to your views.py to render the home template. You cannot render a template without a matching views function.
 - Create a urls.py file for your app, add the appropriate code to register your url patterns, and include this urls in the main url.py file
 - Add some content and initial styling to your home page
