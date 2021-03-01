@@ -21,7 +21,6 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 - Jon: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
 - Dhava: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
 - Ryan: (206) 488 - 3584 [liveprojectinstructor@learncodinganywhere.com]()
-- Lewis: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
 
 
 
@@ -29,7 +28,7 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 - [Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
 - Used for team communication and collaborative conversations
 - Best way to get a hold of instructors
-- Use @Jon / @Dhava / @Ryan  / @Lewis / to tag instructors
+- Use @Jon / @Dhava / @Ryan  /  to tag instructors
 
 **Google Meet:**
 - [Link to Google Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
