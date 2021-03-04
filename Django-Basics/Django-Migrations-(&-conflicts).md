@@ -23,7 +23,7 @@
    - branch_1, where one developer has the migration 0003_something.py
    - branch_2, where another developer has the migration 0003_something_else.py
 - After a GIT merge, there would be two conflicting migrations. The problem here is that both migrations try to alter the same model and that both migration names start with “0003_”.
-**- If you run into migrations conflicts, please contact an instructor immediately. They can get tricky very easily.** 
+- **If you run into migrations conflicts, please contact an instructor immediately. They can get tricky very easily.** 
 
 
 
