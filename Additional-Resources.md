@@ -65,7 +65,7 @@ https://pypi.org/project/urllib3/
 https://pypi.org/project/django-crispy-forms/
 [Documentation](https://django-crispy-forms.readthedocs.io/en/latest/)
 
-**django-bootsrap4**
+**django-bootstrap4**
 - django-bootstrap is a package that blends Django and bootstrap 4 for things such as styling forms and creating buttons.
 https://django-bootstrap4.readthedocs.io/en/latest/
 https://pypi.org/project/django-bootstrap4/
