@@ -17,10 +17,12 @@ This project was built using the Django framework. This project is the interacti
 
 Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
+Portland: (503) 354 - 9619 
+Utah: (206) 488 - 3584 
 
-- Jon: (503) 354 - 9619 [liveprojectinstructor@learncodinganywhere.com]()
-- Dhava: (503) 354 - 9619 [liveprojectdirector@learncodinganywhere.com]()
-- Ryan: (206) 488 - 3584 [liveprojectinstructor@learncodinganywhere.com]()
+- Jon: [liveprojectinstructor@learncodinganywhere.com]()
+- Dhava: [liveprojectdirector@learncodinganywhere.com]()
+- Ryan: [liveprojectinstructor@learncodinganywhere.com]()
 
 
 
