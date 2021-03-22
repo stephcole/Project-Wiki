@@ -2,6 +2,18 @@
 
 The first story for every student will be to sign their name to our signin file. You will be expected to complete this **after** attending the Sprint Planning session. You will also need to include the collection/hobby you want to work with.
 
+---
+# Branch Naming Conventions
+For the sake of readability we have a naming convention to use for all your branches
+
+Branch Naming Format:
+XX-####-[short_title]
+
+- XX = Your initials
+- \#### = Work Item number
+- [short_title] = short title of the Work-Item
+---
+
 Below are the steps to complete this story. Remember these steps whenever you are choosing stories, creating branches, and creating pull requests.
 
 [Sign In Story Demo](https://drive.google.com/file/d/1jtjKTZNbLiFrVS9bwg6WFI3ws3_4BXqa/view?usp=sharing) done on Mac with instructions for PC.
