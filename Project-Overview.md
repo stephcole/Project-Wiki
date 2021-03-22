@@ -36,6 +36,7 @@ Utah: (206) 488 - 3584
 
 **Google Meet:**
 - [Link to Google Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
+- Strongly encouraged to bookmark this link
 - Sprint Planning on the first Monday of your sprint (1:00 pm PST) **Required**
 - Daily Stand-ups (11:30 am PST) **Required**
 - Used for Team Meetings and screenshares
