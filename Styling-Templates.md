@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # **Important styling rules** <span style="color: gold"> &#9733; </span>
 - Do not create additional styling sheets without the express direction of your instructor. 
 - Do not globally override bootstrap classes in any of the style sheets. Ex: `.card { color: blue }`
