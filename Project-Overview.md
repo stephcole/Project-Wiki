@@ -101,3 +101,24 @@ Important naming conventions to remember for this project:
    - lowercase, words separated by underscores
 - Constants
    - all uppercase, words separated by underscores
+
+---
+#Agile/Scrum Methodology
+
+The Agile/Scrum methodology of development is a popular method of development in the Tech industry.  As such, it is the method we chose to use to develop this project.
+
+Scrum can be thought of as a "framework" designed to help small teams of developers create complex projects. It consists of a small group of developers that that work together in short, sustainable bursts of activity called "sprints", with time for reflection built in. Agile methodology is a development methodology that is based on an incremental approach.
+
+Scrum teams consist of a Scrum master and team members. The scrum master acts as a coach and a facilitator and helps the team learn and apply scrum related agile practices.  The scrum master is available to the team to help remove roadblocks. Team members are responsible for completing user stories that incrementally improve the project.  Team members self-organize to get necessary work done and decide themselves how to do the work.
+
+A "sprint planning" meeting marks the beginning of a sprint. This usually has two parts. The first part is for the team to commit to a set of deliverables for the sprint (What will we do?).  The second part is to identify the tasks that must be completed in order to deliver the agreed upon user stories (How will we do it?).
+
+A daily "scrum meeting" (often called a "stand-up") is held each work day. Most teams choose to hold this meeting at the start of each work day, but this can be adapted to a team's preferences. Daily stand-ups should be brief (around 15 minutes) and pointed. Each participant quickly shares: What tasks they have completed since the last daily scrum, what tasks they expect to complete by the next scrum, and what obstacles are slowing them down; tangents are discouraged.
+
+A "sprint review" is the meeting that ends the sprint. This is the team's chance to show off its accomplishments as well as talk about stories that didn't get finished and why.
+
+A "code retrospective" should be done by each member of the scrum team at the end of a sprint. This is for each team member to consider what they learned during the sprint, what they still need to improve, and how what they learned can be applied in the future.
+
+For further reading of the Agile/Scrum development methodology click this link: https://www.mountaingoatsoftware.com/agile/scrum
+
+[Tech Talk on Lean/Agile Origins and Practices](https://www.youtube.com/watch?v=sgy5L9UhW1g)
