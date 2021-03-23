@@ -1,10 +1,10 @@
 [[_TOC_]]
 
 # **Important styling rules** <span style="color: gold"> &#9733; </span>
-- Do not create additional styling sheets without the express direction of your instructor. 
 - Do not globally override bootstrap classes in any of the style sheets. Ex: `.card { color: blue }`
 - Do not use linebreaks, i.e. `<br>` to add spacing between elements. Use margin or padding instead. 
 - Do create new classes/Ids/increasing specificity to override the built in bootstrap styling. 
+- Do not use inline styling
 
 ## **Styling Naming Convention**
 There are going to be many students coming through writing CSS rule-sets, it's important to have a method to prevent existing rule-sets from being overridden accidentally.  When writing CSS, please follow this naming convention for new classes and ids that you create to greatly reduce the likelihood of CSS being overridden.
