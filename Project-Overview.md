@@ -32,7 +32,7 @@ Utah: (206) 488 - 3584
 - [Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
 - Used for team communication and collaborative conversations
 - Best way to get a hold of instructors
-- Use @Jon / @Jordan / @Dhava / @Ryan  /  to tag instructors
+- Use @Jon / @Jordan / @Mike / @Ryan  /  to tag instructors
 
 **Google Meet:**
 - [Link to Google Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
