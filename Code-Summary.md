@@ -11,7 +11,7 @@ A README file should contain useful information about your project and serve as 
 1. Start with an introduction, describing what your app is about. Mention the technologies used, like the Django Framework.
 2. Create sections for CRUD functionality, Web Scraping, API, and Front end development. This depends on how many stories you have completed as well. You can refer to [this document](https://docs.google.com/document/d/1NuhWe3Sa0RPdyM4bPmrBe--P8V7ri8t5G9OipMEhdGk/edit?usp=sharing) for a template specific to our Python Live Project. It is always a good idea to customize it as you see fit.
 3. Use appropriate technical terms. You can refer to [this document](https://docs.google.com/document/d/1BbHVev8L0QH6AFaUdf3LD-Y6dkYYqcmuAvgyhesW1bY/edit?usp=sharing) for some terms that you should include. Be careful not to use terms incorrectly. If you are unsure, always look it up first. 
-4. If possible, take videos of yourself navigating through your application. It would be a good idea to break them up so that the videos are not too long. You could have one video per feature. You can't put videos on GitHub ReadMe files, but you can add GIFs. [This website](https://ezgif.com/) allows you to convert videos to GIFs. 
+4. If possible, take videos of yourself navigating through your application. You can use Screencastify, a Chrome extension, to do so. It would be a good idea to break them up so that the videos are not too long. You could have one video per feature. You can't put videos on GitHub ReadMe files, but you can add GIFs. [This website](https://ezgif.com/) allows you to convert videos to GIFs. 
 ![image.png](/.attachments/image-e4add546-2a9f-46ee-bb63-bba22a267eca.png)
 
 #README Syntax
