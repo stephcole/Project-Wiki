@@ -147,7 +147,7 @@ The whole form, when rendered for the first time, will look like:
 
 ### How the view relates:
 - Form data sent back to a Django website is processed by a view. 
-Generally the data is sent back to the same view which published the form. This allows us to reuse some of the same logic.
+Generally, the data is sent back to the same view which published the form. This allows us to reuse some of the same logic.
 
 ###[views.py] 
 ```python
