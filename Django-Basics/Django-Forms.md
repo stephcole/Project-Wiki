@@ -152,9 +152,8 @@ Generally the data is sent back to the same view which published the form. This 
 ###[views.py] 
 ```python
 from django.http import HttpResponselRedirect
-    from eljango.shortouts impost render 
-
-    from .forms import NameForm
+from django.shortcuts import render 
+from .forms import NameForm
 
     def get_name(request):
         # if this is a POST request we need to process the form data 
