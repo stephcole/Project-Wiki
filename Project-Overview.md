@@ -34,10 +34,6 @@ Utah: (206) 488 - 3584
 - Best way to get ahold of instructors
 - Use @Jon / @Jordan / @Mike / @Ryan  /  to tag instructors
 
-**Daily Stand-Up Google Meet:**
-- [Link to Daily Stand-Up  Meet](https://meet.google.com/bvd-atzk-dwi)Dial In: (224) 276-8474 PIN: 675 331 751#
-- Daily Stand-ups (11:00 am PST) **Required**
-
 **Python Project Google Meet:**
 - [Link to Python Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
 - Strongly encouraged to bookmark this link
