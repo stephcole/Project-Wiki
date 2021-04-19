@@ -37,11 +37,11 @@ See [this diagram](https://drive.google.com/file/d/1Tvwnru1X8jOcKuXz_wCfuD9e52a_
 - The final step that needs to be performed before code can be added into the master branch is to bring the working branch current with the master and resolve any conflicts. Conflicts are a natural part of group projects, and resolving them means paying careful attention to what code is being overwritten. The steps for this process:
    1. Save and commit your final changes to your working branch
    2. Switch to the Master branch (aka checkout the master)
-   3. Pull the most recent master branch
-   4. Switch back to you working branch
+   3. Pull the most recent remote master branch (update project)
+   4. Switch back to your working branch
    5. Merge the master branch _into_ your working branch
    6. Resolve any conflicts
-   7. Check that your branch still works properly
+   7. Check that your branch still works properly (this includes being able to run migrate)
 
 - If you are not comfortable with the conflict resolution process at this time, your instructor will handle it, just abort the merge when conflicts occur. You will likely need to learn this skill on the job.
 
