@@ -36,7 +36,7 @@ Utah: (206) 488 - 3584
 
 
 
-**Daily Stand-Up Google Meet:**
+**Daily Stand-Up/screen-share Google Meet:**
 - [Link to Daily Stand-Up  Meet](https://meet.google.com/bvd-atzk-dwi)Dial In: (224) 276-8474 PIN: 675 331 751#
 - Daily Stand-ups (11:00 am PST) **Required**
 
