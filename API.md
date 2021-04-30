@@ -14,3 +14,25 @@ Once the client’s request has reached the server, the server will search for a
 An HTTP response is what is sent by a server back to a client in response to an HTTP request. These responses contain a status code and if the request was successful, the requested resource. An example status code for a successful request would be “200” and an example status code for an unsuccessful request would be “404”. Other common status codes include “300” for redirects and “500” for server errors.
 
 HTTP responses also include a message body. For our purposes, we are mainly concerned with the message body which could be a JSON or XML stream.
+
+--- 
+
+# Resources
+## **Finding APIs**
+
+- Programmable Web has a database of many different APIs for many different functions. Use the keyword "free" while searching for what you need. 
+https://www.programmableweb.com/
+
+**Working With APIs**
+- https://requests.readthedocs.io/en/master/user/quickstart/
+- https://rapidapi.com/blog/how-to-use-an-api-with-python/
+- https://realpython.com/python-requests/
+- https://www.nylas.com/blog/use-python-requests-module-rest-apis/
+
+**GitHub Public APIs List**
+- There is a list of public APIs maintained at this GitHub repository. https://github.com/public-apis/public-apis
+
+**Rapid API**
+- Log in with username: liveprojecttta email: liveprojectdummyacct@gmail.com password: 123qweASD!
+- Search for free APIs with auto generated keys (no need to sign up)
+https://rapidapi.com/
