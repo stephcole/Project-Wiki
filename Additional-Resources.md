@@ -11,6 +11,11 @@
 - geeksforgeeks.org/django-tutorial/
 ---
 
+# Miscellaneous
+- This site has some beautiful free photos for your app
+  https://www.pexels.com/
+- Code snippets and tutorials for some basic front end features 
+  https://www.w3schools.com/howto/
 # **Python Packages** (Tool set)
 
 **beautifulsoup4** 4.8.0
