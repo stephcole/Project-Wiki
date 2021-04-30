@@ -9,6 +9,7 @@
 - https://tutorial.djangogirls.org/en/
 - https://www.tutorialspoint.com/django/index.htm
 - geeksforgeeks.org/django-tutorial/
+- [Short overview of Django](https://youtu.be/jmX27FrCqqs)
 ---
 
 # Front End
