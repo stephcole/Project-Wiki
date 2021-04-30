@@ -11,7 +11,7 @@
 - geeksforgeeks.org/django-tutorial/
 ---
 
-# Miscellaneous
+# Front End
 - This site has some beautiful free photos for your app
   https://www.pexels.com/
 - Code snippets and tutorials for some basic front end features 
