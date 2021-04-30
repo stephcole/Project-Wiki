@@ -11,12 +11,13 @@ Allows the creation of HTML dynamically (using templates)
     - Provides robust security built in with it
 
 # Django Basics
-- “Four things for one page”
+- **“Four things for one page”**
     - You need a model, template, view, and url for your average page (Order doesn’t matter, need them all at once)
 - **MTV - Model, Template, View**
     - Model: the tools we use to work with data and databases
     - Template: provide a designer friendly plain-text templating system
     - View: retrieves the data from the databases via the model. AKA, the view presents the model to the client as an HTTP response
+- **URL Routing ![URLRouting.png](/.attachments/URLRouting-2b9c8427-ccf9-4b52-8ad3-2ca72cbdb923.png)**
 ---
 # Django project structure
 
