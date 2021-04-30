@@ -5,7 +5,10 @@
 - [Merge Conflict Resolution](https://docs.google.com/document/d/1sm7MpKOSeVj1jdmvpVM80Hv1g7iqqqu8EFQT2nRFF1o/edit?usp=sharing)
 ---
 
-
+# **Tutorials**
+- https://tutorial.djangogirls.org/en/
+- https://www.tutorialspoint.com/django/index.htm
+- geeksforgeeks.org/django-tutorial/
 ---
 
 # **Python Packages** (Tool set)
