@@ -1,5 +1,12 @@
 [[_TOC_]]
 
+#Choosing a Topic
+The topic for your project is not as important as the process you will go through to create it. We recommend that you choose something simple that you are familiar with. Examples are:
+- Recipes
+- Product reviews (restaurants, movies, books, etc)
+- Sports or videogame statistics
+- Music (artists, songs)
+
 #What You're Building
 
 There are 3 distinct portions of the app that you'll be trying to create, and we have individual stories to walk you through each portion.
