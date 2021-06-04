@@ -20,7 +20,6 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 Portland: (503) 354 - 9619 
 Utah: (206) 488 - 3584 
 
-- Jon: [liveprojectinstructor@learncodinganywhere.com]()
 - Jordan: [liveprojectinstructor@learncodinganywhere.com]()
 - Mike: [liveprojectdirector@learncodinganywhere.com]()
 - Ryan: [liveprojectinstructor@learncodinganywhere.com]()
@@ -32,7 +31,7 @@ Utah: (206) 488 - 3584
 - [Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
 - Used for team communication and collaborative conversations
 - Best way to get ahold of instructors
-- Use @Jon / @Jordan / @Mike / @Ryan  /  to tag instructors
+- Use @Jordan / @Mike / @Ryan  /  to tag instructors
 
 
 
