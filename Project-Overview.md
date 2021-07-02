@@ -27,23 +27,19 @@ Utah: (206) 488 - 3584
 
 
 
-**Slack:**
-- [Link to Slack Channel](https://join.slack.com/t/pythonliveproject/shared_invite/enQtODQxNDIzNzIwODIzLTAzODcxMzdjMTdhYWY2OWRkYzY4YjkwOTZmMWUxMDJiYjRmNGE2OWNhYjZlZDg2NTNlMGJkOWNjNTk4OTI4OTI) 
-- Used for team communication and collaborative conversations
+**Discord:**
+- [Link to Discord Server](https://discord.gg/Y4Dxr9ZPNx) 
+- Used for team communication, collaborative conversations, and screen shares
 - Best way to get ahold of instructors
-- Use @Jordan / @Mike / @Ryan  /  to tag instructors
 
-
-
-**Daily Stand-Up Google Meet:**
-- [Link to Daily Stand-Up  Meet](https://meet.google.com/bvd-atzk-dwi)Dial In: (224) 276-8474 PIN: 675 331 751#
+**Daily Stand-Up:**
 - Daily Stand-ups (11:00 am PST) **Required**
+- Stand-ups are in the **Standup** voice channel on [Discord](https://discord.gg/Y4Dxr9ZPNx)
 
-**Python Project/screen-share Google Meet:**
-- [Link to Python Meet](https://meet.google.com/vno-niei-wbb) Dial In: (929) 277-5984 PIN: 140 159 220#
-- Strongly encouraged to bookmark this link
+**Project Sprint Planning:**
+- Will be held in the Python Meeting Room voice channel in [Discord](https://discord.gg/Y4Dxr9ZPNx)
 - Sprint Planning on the first Monday of your sprint (1:00 pm PST) **Required**
-- Used for Team Meetings and screenshares
+- Used for Team Meetings and screen share sessions
 
 
 ---
