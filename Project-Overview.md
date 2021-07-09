@@ -22,7 +22,7 @@ Utah: (206) 488 - 3584
 
 - Jordan: [liveprojectinstructor@learncodinganywhere.com]()
 - Mike: [liveprojectdirector@learncodinganywhere.com]()
-- Ryan: [liveprojectinstructor@learncodinganywhere.com]()
+- Adam: [liveprojectinstructor@learncodinganywhere.com]()
 
 
 
