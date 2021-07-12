@@ -63,7 +63,7 @@ The code summary is a useful tool for your job search. Think of it as a document
 
 - **Final Essay:** 
 (Last Friday, found in LMS)
-<big>Only do the essay if you are finished will all Live Project Sprints!</big>
+<big>Only do the essay if you are finished with all Live Project Sprints!</big>
 In your essay, you should answer the following questions:
 
   - How was your experience working on a team of software developers?
