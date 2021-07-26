@@ -33,7 +33,9 @@ Utah: (206) 488 - 3584
 - Best way to get ahold of instructors
 - When joining the Discord, you'll start on the #roles channel. ***Make sure to select your role before going forward as you will NOT have access to the rest of the server without it.***
 
-![rolesChannel.png](/.attachments/rolesChannel-3a7b506d-a622-42cb-a1cb-95ea2ebb9e3c.png)
+![rolesChannel.png](/.attachments/rolesChannel-1da113d9-741a-4e1b-a7b0-1573858993e0.png)
+
+![pythonRoleSelect.png](/.attachments/pythonRoleSelect-3da41631-cbaf-460a-ac6b-4ea99edc9850.png)
 
 
 **Daily Stand-Up:**
