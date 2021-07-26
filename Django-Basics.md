@@ -79,7 +79,7 @@ The above are the files and directories that Django creates for us when we run t
 
 - Each app is a self contained package that should do only one thing
 - Django has a number of apps in your project from the start.  These can be seen in the settings.py file
-- There are many other built in Django apps you can add to projects by adding them to the INSTSALLED_APPS list.  When you add your own apps to a Django project, you must also add a link to the app configuration class
+- There are many other built in Django apps you can add to projects by adding them to the INSTALLED_APPS list.  When you add your own apps to a Django project, you must also add a link to the app configuration class
 
 - __init.py: a blank python script that due to its special name let’s python know that this directory can be treated as a package
 - settings.py: this is where you store all project settings
