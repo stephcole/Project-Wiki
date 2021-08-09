@@ -20,8 +20,8 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 Portland: (503) 354 - 9619 
 Utah: (206) 488 - 3584 
 
-- Jordan: [liveprojectinstructor@learncodinganywhere.com]()
-- Mike: [liveprojectdirector@learncodinganywhere.com]()
+
+- Forest: [liveprojectdirector@learncodinganywhere.com]()
 - Adam: [liveprojectinstructor@learncodinganywhere.com]()
 - Cindy: [liveprojectinstructor@learncodinganywhere.com]()
 
