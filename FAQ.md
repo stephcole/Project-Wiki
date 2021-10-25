@@ -16,7 +16,7 @@
 
 1. Where did my changes go? I created a new branch and now my changes from my previous story aren't in my new branch.
 -This occurs when a new branch has been created before an instructor has had time to merge your previous branch into the master branch. There are two ways to approach this. One way is to merge your previous branch into your current branch or wait until an instructor has merged your previous branch into the master, keep in mind we are not here all the time, so don't feel the need to have to wait. Here are instructions for the first approach(merge the previous branch into the current branch):
-![mergep.png](/.attachments/mergep-0f3e30ae-1e8a-4be7-b861-fd50a42810e9.png)
+![Mergeintoprevious.png](/.attachments/Mergeintoprevious-fc4f547f-5c73-4e0c-beeb-c6a18d8a1550.png)
 
 2. When should I update my master branch?
   -Updating your master branch is important to do to prevent merge conflicts. Good practice would be to update the master branch at least every time you start your new story. 
