@@ -20,7 +20,8 @@
 2. When should I update my master branch?
   -Updating your master branch is important to do to prevent merge conflicts. Good practice would be to update the master branch at least every time you start your new story. 
 3. What should I do when I have a merge conflict after I created my pull request?
- -Merge conflicts are common, so no need to worry! 
+ -Merge conflicts are common, so no need to worry. Instructors can take care of a merge conflict for you, just let us know. If you feel comfortable enough to try it out your self here is a step-by-step walkthrough on how to solve a merge conflict. 
+[Merge Conflict Resolution](https://docs.google.com/document/d/1sm7MpKOSeVj1jdmvpVM80Hv1g7iqqqu8EFQT2nRFF1o/edit?usp=sharing)
 
 
 
