@@ -42,4 +42,5 @@ this command will get you started.
 Then the virtual environment would need to be located in the PycharmProjects directory.
 3. Why can't I run any manage.py commands?
 -For this, you would want to make sure you are in the correct directory in which the manage.py file is located.
-4.
+4. How long should I be working on a roadblock before I reach out for help?
+-This is dependent on each person, however, we recommend giving yourself about an hour trying to debug the issue and/or doing research. You would not want to spend too much time debugging as this can result 
