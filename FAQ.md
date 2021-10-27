@@ -43,4 +43,4 @@ Then the virtual environment would need to be located in the PycharmProjects dir
 3. Why can't I run any manage.py commands?
 -For this, you would want to make sure you are in the correct directory in which the manage.py file is located.
 4. How long should I be working on a roadblock before I reach out for help?
--This is dependent on each person, however, we recommend giving yourself about an hour trying to debug the issue and/or doing research. You would not want to spend too much time debugging as this can result 
+-This is dependent on each person, however, we recommend giving yourself about an hour trying to debug the issue and/or doing research. If you don't know where to start in the process of debugging, go ahead and reach out to an instructor, we can help point you in the right direction! Also, it is perfectly acceptable to clarify with an instructor exactly what kind of help you are looking for, have that be hints, resources, jumping on a screen-share, etc.
