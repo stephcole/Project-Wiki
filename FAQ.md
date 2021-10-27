@@ -10,7 +10,7 @@
 -Four stories total and the prep story.
 
 3. When are the live project instructors available?
--Monday-Friday from 10 am - 6 pm Pacific time. 
+-Monday-Friday from 10am - 6pm Pacific time. 
 # 
 ## Version Control Questions:
 
