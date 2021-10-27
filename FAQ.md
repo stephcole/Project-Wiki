@@ -32,7 +32,7 @@ There is also a video that can walk you through this:
 
 ## Live Project Questions:
 # 
-1. How do I start the process of creating my app?
+1. How do I start the process of creating my app, where do I even start?
 -Make sure you are within the AppBuilder9000 directory and run the following command: 
 python manage.py startapp nameofyourapp
 this command will get you started.
@@ -40,3 +40,6 @@ this command will get you started.
 -It should be located outside of the project folder. For example, if your path looked like this:
 ![2021-10-27 11_40_39-Window.png](/.attachments/2021-10-27%2011_40_39-Window-94e59c83-b6c0-4b3d-9239-443377ee7932.png)
 Then the virtual environment would need to be located in the PycharmProjects directory.
+3. Why can't I run any manage.py commands?
+-Make sure you are in the correct directory in which the manage.py file is located.
+4.
