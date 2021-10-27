@@ -43,4 +43,10 @@ Then the virtual environment would need to be located in the PycharmProjects dir
 3. Why can't I run any manage.py commands?
 -For this, you would want to make sure you are in the correct directory in which the manage.py file is located.
 4. How long should I be working on a roadblock before I reach out for help?
--This is dependent on each person, however, we recommend giving yourself about an hour trying to debug the issue and/or doing research. If you don't know where to start in the process of debugging, go ahead and reach out to an instructor, we can help point you in the right direction! Also, it is perfectly acceptable to clarify with an instructor exactly what kind of help you are looking for, have that be hints, resources, jumping on a screen-share, etc.
+-This is dependent on each person, however, we recommend giving yourself about an hour trying to debug the issue and/or doing research. If you don't know where to start in the process of debugging, go ahead and reach out to an instructor we can help point you in the right direction! Also, it is perfectly acceptable to clarify with an instructor exactly what kind of help you are looking for, have that be hints, resources, jumping on a screen-share, etc.
+5. I accidentally made changes to another student's file and now it's in my commit window.
+-There is a rollback feature on pycharm that will undo changes that you made to a file. You would want to select the file you are wanting to undo changes to. Make sure you don't have files selected that you wouldn't want to lose changes to.
+![2021-10-27 13_04_12-Window.png](/.attachments/2021-10-27%2013_04_12-Window-a8854bcb-718b-40e9-be56-03d3ecaebdc9.png)
+6. Why are some of my files red?
+-This means your files are untracked.
+
