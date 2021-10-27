@@ -31,12 +31,12 @@ There is also a video that can walk you through this:
 -Most of the time when you get an error when trying to commit and push your changes up, this problem comes back to the branch you are working on. Make sure you are not on the master branch trying to commit and push your changes up. You might need to save your code on notepad++ and paste it into the correct branch(not the master branch). Now you should be able to commit and push your changes up. It is always good practice to make sure you are in your working branch. Working on the master branch is not acceptable in the tech industry. However, if you are on your working branch and are getting an error when trying to commit and push your changes up, go ahead and reach out to an instructor on this issue. 
 
 ## Live Project Questions:
-
-
-
-
-
-
-
-
-
+# 
+1. How do I start the process of creating my app?
+-Make sure you are within the AppBuilder9000 directory and run the following command: 
+python manage.py startapp nameofyourapp
+this command will get you started.
+2. Where should my virtual environment be located?
+-It should be located outside of the project folder. For example, if your path looked like this:
+![2021-10-27 11_40_39-Window.png](/.attachments/2021-10-27%2011_40_39-Window-94e59c83-b6c0-4b3d-9239-443377ee7932.png)
+Then the virtual environment would need to be located in the PycharmProjects directory.
