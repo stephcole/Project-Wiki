@@ -41,5 +41,5 @@ this command will get you started.
 ![2021-10-27 11_40_39-Window.png](/.attachments/2021-10-27%2011_40_39-Window-94e59c83-b6c0-4b3d-9239-443377ee7932.png)
 Then the virtual environment would need to be located in the PycharmProjects directory.
 3. Why can't I run any manage.py commands?
--Make sure you are in the correct directory in which the manage.py file is located.
+-For this, you would want to make sure you are in the correct directory in which the manage.py file is located.
 4.
