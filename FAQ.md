@@ -48,5 +48,12 @@ Then the virtual environment would need to be located in the PycharmProjects dir
 -There is a rollback feature on pycharm that will undo changes that you made to a file. You would want to select the file you are wanting to undo changes to. Make sure you don't have files selected that you wouldn't want to lose changes to.
 ![2021-10-27 13_04_12-Window.png](/.attachments/2021-10-27%2013_04_12-Window-a8854bcb-718b-40e9-be56-03d3ecaebdc9.png)
 6. Why are some of my files red?
--This means your files are untracked.
+![2021-10-27 13_50_29-Window.png](/.attachments/2021-10-27%2013_50_29-Window-cf091720-ba6c-4727-bce0-0550351b8ce0.png)
+-This means your files are untracked. You would want to add these files into the VCS(version control systems). To do this go over to your commit window and look within the unversioned files and add to VCS:
+![new3.png](/.attachments/new3-1319356c-3340-45ef-b478-6591ddbb873e.png)
+How do I prevent this from occurring again?
+When you create a new file you will get a window pop-up. It will look something like this, see the image below:
+![2021-10-27 13_15_06-Window.png](/.attachments/2021-10-27%2013_15_06-Window-d3492c34-eb77-4320-b3dd-e1b82e74ddc9.png)
+You would want to add file to git, that file will now be tracked. The reason your file ended up being untracked could be that you might have clicked cancel when this window popped up.
+
 
