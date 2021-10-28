@@ -1,5 +1,4 @@
 [[_TOC_]]
-Frequently Asked Questions
 # General Questions:
 
 ## 1.  Who do I email my daily update email to? 
