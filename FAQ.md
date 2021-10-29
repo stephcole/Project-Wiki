@@ -53,5 +53,9 @@ How do I prevent this from occurring again?
 When you create a new file you will get a window pop-up. It will look something like this, see the image below:
 ![2021-10-27 13_15_06-Window.png](/.attachments/2021-10-27%2013_15_06-Window-d3492c34-eb77-4320-b3dd-e1b82e74ddc9.png)
 You would want to add file to git, that file will now be tracked. The reason your file ended up untracked could be because cancel was clicked instead of add.
+## 7. Where can I find an API?
+-There are some websites where you can find API's, here is a shortlist of some:
+(https://github.com/public-apis/public-apis)
+(https://rapidapi.com/)
 
 
