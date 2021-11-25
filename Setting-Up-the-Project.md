@@ -26,6 +26,8 @@ _If you are a student on the **Web Development Live Project**, you will need to 
     - Navigate to a folder outside your current project
     - command: _python -m venv [name-of-virtual-env]_
     - **Be sure to activate the virtual environment before running any other commands!**
+    - Getting an error when trying to activate your virtual environment? Try running this command:
+      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 # 3. Install Packages for the Project
 - Make sure you have the latest version of pip, the software that we use to install Django:
