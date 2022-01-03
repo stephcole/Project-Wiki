@@ -20,7 +20,6 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 Phone: (503) 354 - 9619 
 
 - Cindy: [liveprojectdirector@learncodinganywhere.com]()
-- Forest: [liveprojectinstructor@learncodinganywhere.com]()
 - Jeff: [liveprojectinstructor@learncodinganywhere.com]()
 
 **Discord:**
