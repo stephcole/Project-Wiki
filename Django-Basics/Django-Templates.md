@@ -111,7 +111,7 @@ from django.shortcuts import render
   - {% extends %} vs. {% include %}
     - Extending allows us to replace blocks (e.g. “content”) from a parent template instead of including all the parts to build the page (for example, a header or footer).  This allows you to have a single template containing your complete layout and you only “insert” the content of the other template by replacing a block.  Include just simply includes the entire template that is passed in. Extend is the frame that content goes inside of, whereas include adds that content within the frame you've created.
   - {% cycle ‘argument_1’ ‘argument_2’ %}
-    - Produces one of its arguments each the tag is encountered, cycling through them once all arguments have been exhausted
+    - Produces one of its arguments each time the tag is encountered, cycling through them once all arguments have been exhausted
   - {% for something in some_list %} … {% endfor %}
     - loops over each item in an array, making the item available in a context variable
     - example of last two:
