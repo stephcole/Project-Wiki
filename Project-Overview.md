@@ -50,7 +50,7 @@ Phone: (503) 354 - 9619
 There are over 20 stories in total for you to complete, but you must complete stories 1 through 4 to pass the Live Project.  Keep in mind 4 stories is the bare minimum. The more you get done, the more impressive your app will be on your portfolio! Remember to reach out if you get stuck for too long!
 - **Daily Update Email:** 
 (Daily)
-An email to the Live Project director at the end of your working day that replaces the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
+An email to the Live Project director at the end of your working day that *replaces* the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
   - What struggles or roadblocks are you working on?
   - What schedule will you be working tomorrow?
 
@@ -60,7 +60,7 @@ A quick discussion during the daily stand-up that explains what was helpful and 
 
 - **Code Summaries:** 
 (Last Friday of the 2-week sprint)
-The code summary is a useful tool for your job search. Think of it as a document that shows the most impressive things you did and learned over the course of the project. Try to gather screenshots and code snippets. Many people choose to use github to organize their retrospective. It is ok to upload code snippets to GitHub,  just don't upload the entire project. This is a [link](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to another summary as an example. It is important to get the materials you need from Azure DevOps by monday, because we may need space for more students. Email LiveProjectDirector@LearnCodingAnywhere.com if you know you will need more time.
+The code summary is a useful tool for your job search. Think of it as a document that shows the most impressive things you did and learned over the course of the project. Try to gather screenshots and code snippets. Many people choose to use github to organize their retrospective. It is ok to upload code snippets to GitHub,  just <ins>don't upload the entire project</ins>. This is a [link](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to another summary as an example. It is important to get the materials you need from Azure DevOps by monday, because we may need space for more students. Email LiveProjectDirector@LearnCodingAnywhere.com if you know you will need more time.
 
 - **Final Essay:** 
 (Last Friday, found in LMS)
