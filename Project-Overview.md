@@ -20,7 +20,7 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 Phone: (503) 354 - 9619 
 
 - Cindy: [liveprojectdirector@learncodinganywhere.com]()
-- Jeff: [liveprojectinstructor@learncodinganywhere.com]()
+- Jeff: [jeff@learncodinganywhere.com]()
 
 **Discord:**
 - [Link to Discord Server](https://discord.gg/Y4Dxr9ZPNx) 
@@ -50,7 +50,7 @@ Phone: (503) 354 - 9619
 There are over 20 stories in total for you to complete, but you must complete stories 1 through 4 to pass the Live Project.  Keep in mind 4 stories is the bare minimum. The more you get done, the more impressive your app will be on your portfolio! Remember to reach out if you get stuck for too long!
 - **Daily Update Email:** 
 (Daily)
-An email to the Live Project director at the end of your working day that *replaces* the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
+An email to the Live Project Instructor at the end of your working day that *replaces* the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
   - What struggles or roadblocks are you working on?
   - What schedule will you be working tomorrow?
 
