@@ -23,7 +23,7 @@ _If you are a student on the **Web Development Live Project**, you will need to 
       - You can create different virtual environments to test out different versions of packages on your project
     - If using venv, activate it before running any commands
   - To create a virtual environment using venv:
-    - Navigate to the parent folder for your current project
+    - Navigate to the parent folder of your current project
     - command: _python -m venv [name-of-virtual-env]_
     - **Be sure to activate the virtual environment before running any other commands!**
     - Getting an error when trying to activate your virtual environment? Try running this command:
