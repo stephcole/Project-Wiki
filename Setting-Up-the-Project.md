@@ -24,6 +24,8 @@ _If you are a student on the **Web Development Live Project**, you will need to 
     - If using venv, activate it before running any commands
   - To create a virtual environment using venv:
     - Navigate to the parent folder of your current project
+    - If your file path looked like the image below, your virtual environment would go in the "Pycharm Projects" folder.
+    ![2021-10-27 11_40_39-Window.png](/.attachments/2021-10-27%2011_40_39-Window-94e59c83-b6c0-4b3d-9239-443377ee7932.png)
     - command: _python -m venv [name-of-virtual-env]_
     - **Be sure to activate the virtual environment before running any other commands!**
     - Getting an error when trying to activate your virtual environment? Try running this command:
