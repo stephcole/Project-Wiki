@@ -35,7 +35,7 @@
 
 - You’ll note that the key needed to be cast to an integer. This is because the request will translate the integer into a string, and it will need to be cast back to an integer to properly be used with the get_object_or_404 function. You’ll also note that the variable ‘key’ is often actually called pk within standard code. I renamed it key so it would be more evident when I’m referring to our value of key versus the embedded variable pk.
 
-- These principles also apply for the API portion of your project. When sending a request to the API, you’ll need to include information in the url to filter or assign variable values. For instance, this simple cat picture service allows me to define text and a color within the url: https://cataas.com/cat/says/Hi%20Tech%20Academy%20Student!?color=yellow
+- These principles also apply for the API portion of your project. When sending a request to the API, you’ll need to include information in the url to filter or assign variable values. For instance, this simple service gives you random dog facts: https://dog-api.kinduff.com/api/facts. Without including "facts" in the url the API will not give a successful response.
 
 - You’ll want to look closely at the documentation of your API to determine how to utilize this. You may also need to add information to your headers, the other method of passing a variable with a GET request, for instance for API Key validation. 
 
