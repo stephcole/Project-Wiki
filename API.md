@@ -33,6 +33,5 @@ https://www.programmableweb.com/
 - There is a list of public APIs maintained at this GitHub repository. https://github.com/public-apis/public-apis
 
 **Rapid API**
-- Log in with username: liveprojecttta email: liveprojectdummyacct@gmail.com password: 123qweASD!
 - Search for free APIs with auto generated keys (no need to sign up)
 https://rapidapi.com/
