@@ -2,7 +2,7 @@
 # General Questions:
 
 ## 1.  Who do I email my daily update email to? 
--The live project director at liveprojectdirector@learncodinganywhere.com
+-The live project instructor
 
 ## 2. What are the minimum stories required to pass the live project?
 -Four stories total and the prep story.
