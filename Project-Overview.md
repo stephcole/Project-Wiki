@@ -21,7 +21,6 @@ Phone: (503) 354 - 9619
 
 - Joel: [liveprojectdirector@learncodinganywhere.com]()
 - Jeff: [jeff@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
-- Cody: [cody@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
 
 **Discord:**
 - [Link to Discord Server](https://discord.gg/Y4Dxr9ZPNx) 
