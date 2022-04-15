@@ -1,6 +1,6 @@
 # Completing your Prep Story
 
-The first story for every student will be to sign their name to our signin file. You will be expected to complete this **after** attending the Sprint Planning session. You will also need to include the collection/hobby you want to work with.
+The first story for every student will be to sign their name to our signin file. You will be expected to complete this **after** attending the Sprint Planning session. You will also need to include the topic you want to work with.
 
 ---
 # Branch Naming Conventions
