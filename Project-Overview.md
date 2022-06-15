@@ -24,7 +24,7 @@ Phone: (503) 354 - 9619
 - Jeff: [jeff@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
 
 **Discord:**
-- [Link to Discord Server](https://discord.gg/Y4Dxr9ZPNx) 
+- [Link to Discord Server](https://discord.gg/sQYfD5UV) 
 - Used for team communication, collaborative conversations, and screen shares
 - Best way to get ahold of instructors
 - When joining the Discord, you'll start on the #roles channel. ***Make sure to select your role before going forward as you will NOT have access to the rest of the server without it.***
@@ -36,7 +36,7 @@ Phone: (503) 354 - 9619
 
 **Daily Stand-Up:**
 - Daily Stand-ups (11:00 am PST) **Required**
-- Stand-ups are in the **Standup** voice channel on [Discord](https://discord.gg/Y4Dxr9ZPNx)
+- Stand-ups are in the **Standup** voice channel on [Discord](https://discord.gg/sQYfD5UV)
 
 **Project Sprint Planning:**
 - Will be held in the Python Meeting Room voice channel in [Discord](https://discord.gg/Y4Dxr9ZPNx)
