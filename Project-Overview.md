@@ -39,7 +39,7 @@ Phone: (503) 354 - 9619
 - Stand-ups are in the **Standup** voice channel on [Discord](https://discord.gg/sQYfD5UV)
 
 **Project Sprint Planning:**
-- Will be held in the Python Meeting Room voice channel in [Discord](https://discord.gg/Y4Dxr9ZPNx)
+- Will be held in the Python Meeting Room voice channel in [Discord](https://discord.gg/sQYfD5UV)
 - Sprint Planning on the first Monday of your sprint (1:00 pm PST) **Required**
 - Used for Team Meetings and screen share sessions
 
