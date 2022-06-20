@@ -48,7 +48,7 @@ Phone: (503) 354 - 9619
 
 # Live Project Requirements
 - **Stories:**
-There are over 20 stories in total for you to complete, but you must complete stories 1 through 4 to pass the Live Project.  Keep in mind 4 stories is the bare minimum. The more you get done, the more impressive your app will be on your portfolio! Remember to reach out if you get stuck for too long!
+There are 10 predetermined stories in total for you to complete, but you must complete stories 1 through 4 to pass the Live Project.  Keep in mind 4 stories is the bare minimum. The more you get done, the more impressive your app will be on your portfolio! Remember to reach out if you get stuck for too long!
 - **Daily Update Email:** 
 (Daily)
 An email to the Live Project Instructor at the end of your working day that *replaces* the Daily Report in the LMS. It should include a brief summary of what you're working on and include answers to the following questions:
