@@ -24,7 +24,7 @@ Phone: (503) 354 - 9619
 - Jeff: [jeff@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
 
 **Discord:**
-- [Link to Discord Server](https://discord.gg/sQYfD5UV) 
+- [Link to Discord Server](https://discord.gg/XKD5sthURK) 
 - Used for team communication, collaborative conversations, and screen shares
 - Best way to get ahold of instructors
 - When joining the Discord, you'll start on the #roles channel. ***Make sure to select your role before going forward as you will NOT have access to the rest of the server without it.***
