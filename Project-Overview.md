@@ -29,7 +29,7 @@ Phone: (503) 354 - 9619
 - Best way to get ahold of instructors
 - When joining the Discord, you'll start on the #roles channel. ***Make sure to select your role before going forward as you will NOT have access to the rest of the server without it.***
 
-![rolesChannel.png](/.attachments/rolesChannel-1da113d9-741a-4e1b-a7b0-1573858993e0.png)
+![roles.PNG](/.attachments/roles-240f2ecb-fd7e-4855-9a8d-f36114de7828.PNG)
 
 ![pythonRoleSelect.png](/.attachments/pythonRoleSelect-3da41631-cbaf-460a-ac6b-4ea99edc9850.png)
 
