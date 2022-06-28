@@ -27,7 +27,7 @@ Phone: (503) 354 - 9619
 - [Link to Discord Server](https://discord.gg/XKD5sthURK) 
 - Used for team communication, collaborative conversations, and screen shares
 - Best way to get ahold of instructors
-- When joining the Discord, you'll start on the #roles channel. ***Make sure to select your role before going forward as you will NOT have access to the rest of the server without it.***
+- When joining the Discord, you'll start on the #welcome channel. Navigate to the #roles channel to select your Live Project. ***Make sure to select your role before going forward as you will NOT have access to the rest of the server without it.***
 
 ![roles.PNG](/.attachments/roles-240f2ecb-fd7e-4855-9a8d-f36114de7828.PNG)
 
