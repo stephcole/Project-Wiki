@@ -38,6 +38,8 @@ Phone: (503) 354 - 9619
 - Daily Stand-ups (11:00 am PST) **Required**
 - Stand-ups are in the **Standup** voice channel on [Discord](https://discord.gg/sQYfD5UV)
 
+![standup.PNG](/.attachments/standup-989b9cd8-6126-4fe2-9f70-cbdf5165ffae.PNG)
+
 **Project Sprint Planning:**
 - Will be held in the Python Meeting Room voice channel in [Discord](https://discord.gg/sQYfD5UV)
 - Sprint Planning on the first Monday of your sprint (1:00 pm PST) **Required**
