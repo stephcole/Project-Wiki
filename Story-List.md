@@ -45,7 +45,7 @@ https://docs.djangoproject.com/en/2.2/topics/db/models/
 https://docs.djangoproject.com/en/2.2/topics/forms/modelforms/
 https://docs.djangoproject.com/en/3.0/ref/forms/widgets/
 
-# Story #3: Display all items from database
+# Story \#3: Display all items from database
 
 Display information from the database in a page.
 
@@ -67,7 +67,7 @@ https://docs.djangoproject.com/en/2.2/ref/templates/language/
 https://docs.djangoproject.com/en/3.0/ref/templates/builtins/
 
 
-# Story #4: Details page
+# Story \#4: Details page
 
 Create a details page that will show the details of any single item from within the database, as selected by the user. Link this to the index page for each item.
 
@@ -82,7 +82,7 @@ You are finished with the story when you have a functioning details page that wi
 Tutorial/Documentation:
 https://docs.djangoproject.com/en/2.2/intro/tutorial03/
 
-# Story #5: Edit and Delete Functions
+# Story \#5: Edit and Delete Functions
 
 Allow for edits and delete functions to be done from the details page or from separate pages. Have confirmation before deleting.
 
@@ -101,7 +101,7 @@ Tutorial/Documentation:
 https://docs.djangoproject.com/en/2.2/ref/models/instances/
 https://tutorial.djangogirls.org/en/django_forms/
 
-# Story #6-(API Pt 1): Connect to API
+# Story \#6-(API Pt 1): Connect to API
 
 Connect to your chosen API and get the JSON response, add in a template for displaying the information.
 
@@ -119,7 +119,7 @@ Find your specific API's documentation
 https://simpleisbetterthancomplex.com/tutorial/2018/02/03/how-to-use-restful-apis-with-django.html
 https://www.geeksforgeeks.org/pretty-print-json-in-python/ 
 
-# Story #7-(API Pt 2): Parse through JSON
+# Story \#7-(API Pt 2): Parse through JSON
 
 Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from your app's home page.
 
@@ -144,7 +144,7 @@ https://www.dataquest.io/blog/python-api-tutorial/
 Find your specific API's documentation
 https://simpleisbetterthancomplex.com/tutorial/2018/02/03/how-to-use-restful-apis-with-django.html
 
-# Story #6-(BS Pt 1): Setup Beautiful Soup
+# Story \#6-(BS Pt 1): Setup Beautiful Soup
 
 Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information.
 
@@ -160,7 +160,7 @@ Tutorials/Documentation:
 https://www.dataquest.io/blog/web-scraping-tutorial-python/
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-# Story #7-(BS Pt 2): Parse through html
+# Story \#7-(BS Pt 2): Parse through html
 
 Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page.
 
@@ -180,19 +180,19 @@ Tutorials/Documentation:
 https://www.dataquest.io/blog/web-scraping-tutorial-python/
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-# Story #8: Front End Improvements
+# Story \#8: Front End Improvements
 
 Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability.
 
 You are finished with the story when you've added all functionality you want to for your UI/UX. Ideally, there should be some JavaScript in this. Make sure to test and debug before submitting.
 
-# Story #9: Save API or scraped results
+# Story \#9: Save API or scraped results
 
 Allow the user to save "favorites" of an item either from the information detailed from the API or from Beautiful Soup. This could mean working with the existing model or creating a new one to pull the information from the response, create the appropriate object, and add it to the database. 
 
 You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process.
 
-# Story #10: Choose Your Own Adventure
+# Story \#10: Choose Your Own Adventure
 
 Congratulations! You've gotten to the end of the first 10 stories. Use the Discussion section below to describe the story you'd like to complete with your app. Your instructor will respond with and questions or suggestions.
 
