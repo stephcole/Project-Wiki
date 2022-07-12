@@ -19,9 +19,9 @@ Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
 Phone: (503) 354 - 9619 
 
-- Joel: [liveprojectdirector@learncodinganywhere.com]()
+- Jeff: [liveprojectdirector@learncodinganywhere.com]()
 - Carson: [carson@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
-- Jeff: [jeff@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
+
 
 **Discord:**
 - [Link to Discord Server](https://discord.gg/XKD5sthURK) 
@@ -35,7 +35,7 @@ Phone: (503) 354 - 9619
 
 
 **Daily Stand-Up:**
-- Daily Stand-ups (11:00 am PST) **Required**
+- Daily Stand-ups (11:00 am PST). These are **Required**, you must attend **8/10** stand-ups during your two week sprint. If you cannot make it to a stand-up or missed that day's meeting, please email or message your Instructor with your answers for stand-up.
 - Stand-ups are in the **Standup** voice channel on [Discord](https://discord.gg/sQYfD5UV)
 
 ![standup.PNG](/.attachments/standup-989b9cd8-6126-4fe2-9f70-cbdf5165ffae.PNG)
