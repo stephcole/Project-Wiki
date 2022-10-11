@@ -42,7 +42,7 @@
                  '{"firstName":"Peter","lastName":"Jones"}',
             ]}'
 
-    obj = json.parse(text)
+    obj = json.loads(text)
     name = obj['employees'][1]['firstName'] + " " + obj['employees'][1]['lastName']
 ```
   - this code would result in name = 'Anna Smith'
@@ -56,7 +56,7 @@
 - Values CANNOT be:
   - a function, a date, undefined
 
-# json.parse( ):
+# json.loads( ):
 
 Python’s built in method to convert a string in JSON format into native Python dictionary objects
 - Usage:
@@ -66,11 +66,11 @@ Python’s built in method to convert a string in JSON format into native Python
     { "name":"Billy", "age":300, "city":"Seattle”}
 ```
 
-  - We can use the json.parse( ) to convert this text to a Python dictionary object object
+  - We can use the json.load( ) to convert this text to a Python dictionary object object
 
         
 ```python
-    obj = json.parse(‘{"name":"Billy","age":300,"city":"Seattle"}');
+    obj = json.loads('{"name":"Billy","age":300,"city":"Seattle"}');
 ```
 
   - We can now use the Python object in our views:
@@ -82,14 +82,14 @@ Python’s built in method to convert a string in JSON format into native Python
     city = obj['city']
 ```
 
-- When using json.parse( ) on a JSON derived from an array, the method will return a Python array, instead of a Python dictionary object. 
+- When using json.loads( ) on a JSON derived from an array, the method will return a Python array, instead of a Python dictionary object. 
 
 Parsing Dates:
    - Date objects are not allowed in JSON so if you need to include one, write it as a string and convert it back later.
  
 ```python
     text = '{ "name":"John", "birth":"1986-12-14", "city":"New York"}'
-    obj = json.parse(text)
+    obj = json.loads(text)
     birth = datetime.datetime(obj['birth'])
     demo = obj['name'] + ", " + birth
 ```
@@ -131,7 +131,7 @@ Parsing Dates:
 - And you wanted to get the name of the first developer, you would need this code:
     
 ```python
-    obj = json.parse(response)
+    obj = json.loads(response)
     name = obj['employees']['developers'][1]['firstName'] + ' ' + obj['employees']['developers'][1]['lastName']
 ```
 - Name would be Peter Sherman.
