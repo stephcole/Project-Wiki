@@ -66,7 +66,7 @@ Python’s built in method to convert a string in JSON format into native Python
     { "name":"Billy", "age":300, "city":"Seattle”}
 ```
 
-  - We can use the json.load( ) to convert this text to a Python dictionary object object
+  - We can use the json.loads( ) to convert this text to a Python dictionary object object
 
         
 ```python
