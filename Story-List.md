@@ -101,7 +101,7 @@ Tutorial/Documentation:
 https://docs.djangoproject.com/en/2.2/ref/models/instances/
 https://tutorial.djangogirls.org/en/django_forms/
 
-# Story \#6-(API Pt 1): Connect to API
+# API Pt 1: Connect to API
 
 Connect to your chosen API and get the JSON response, add in a template for displaying the information.
 
@@ -119,7 +119,7 @@ Find your specific API's documentation
 https://simpleisbetterthancomplex.com/tutorial/2018/02/03/how-to-use-restful-apis-with-django.html
 https://www.geeksforgeeks.org/pretty-print-json-in-python/ 
 
-# Story \#7-(API Pt 2): Parse through JSON
+# API Pt 2: Parse through JSON
 
 Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from your app's home page.
 
@@ -144,7 +144,7 @@ https://www.dataquest.io/blog/python-api-tutorial/
 Find your specific API's documentation
 https://simpleisbetterthancomplex.com/tutorial/2018/02/03/how-to-use-restful-apis-with-django.html
 
-# Story \#6-(BS Pt 1): Setup Beautiful Soup
+# BeautifulSoup Pt 1: Setup Beautiful Soup
 
 Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information.
 
@@ -160,7 +160,7 @@ Tutorials/Documentation:
 https://www.dataquest.io/blog/web-scraping-tutorial-python/
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-# Story \#7-(BS Pt 2): Parse through html
+# BeautifulSoup Pt 2: Parse through html
 
 Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page.
 
