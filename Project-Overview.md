@@ -17,10 +17,10 @@ This project was built using the Django framework. This project is the interacti
 
 Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
 
-Phone: (503) 354 - 9619 
+Phone: (503) 354-9619 
 
-- Jeff: [liveprojectdirector@learncodinganywhere.com]()
-- Frank: [frank@learncodinganywhere.com]() or [liveprojectinstructor@learncodinganywhere.com]()
+- Director: [liveprojectdirector@learncodinganywhere.com]()
+- Alex: [liveprojectinstructor@learncodinganywhere.com]()
 
 
 **Discord:**
