@@ -21,6 +21,7 @@ Phone: (503) 354-9619
 
 - Director: [liveprojectdirector@learncodinganywhere.com]()
 - Alex: [liveprojectinstructor@learncodinganywhere.com]()
+- Wes: [liveprojectinstructor@learncodinganywhere.com]()
 
 
 **Discord:**
