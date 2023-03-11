@@ -15,7 +15,7 @@ This project was built using the Django framework. This project is the interacti
 
 #Live Project Contacts:
 
-Live Project Instructors are available from 10am - 6.30pm PST, Mon - Fri.
+Live Project Instructors are available from 9:30am - 7:00pm PST, Mon - Fri.
 
 Phone: (503) 354-9619 
 
