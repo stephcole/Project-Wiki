@@ -88,25 +88,6 @@ XX-####-[short_title]
 - [short_title] = short title of the Work-Item
 
 ---
-#PEP8 
-
-- PEP8 is Python's official style guide. 
-- PEP8 style syntax is not mandatory to create working code, but it is highly recommended to use these conventions.
-- It's a set of rules for how to format your Python code to maximize its readability. 
-- Writing code to this specification helps to make large code bases, with lots of writers, more uniform and predictable.  
-- The full style guide can be found here: https://www.python.org/dev/peps/pep-0008/
-
-Important naming conventions to remember for this project:
-- Classes
-   - CapitalWords (upper camel case)
-- Functions
-   - lowercase, words separated by underscores
-- Variables
-   - lowercase, words separated by underscores
-- Constants
-   - all uppercase, words separated by underscores
-
----
 #Agile/Scrum Methodology
 
 The Agile/Scrum methodology of development is a popular method of development in the Tech industry.  As such, it is the method we chose to use to develop this project.
