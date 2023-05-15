@@ -86,6 +86,4 @@ XX-####-[short_title]
 - XX = Your initials
 - \#### = Work Item number
 - [short_title] = short title of the Work-Item
-
----
-
+___
