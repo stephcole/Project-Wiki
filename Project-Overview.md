@@ -64,7 +64,7 @@ A quick discussion during the daily stand-up that explains what was helpful and 
 
 - **Code Summaries:** 
 (Last Friday of the 2-week sprint)
-The code summary is a useful tool for your job search. Think of it as a document that shows the most impressive things you did and learned over the course of the project. Try to gather screenshots and code snippets. Many people choose to use github to organize their retrospective. It is ok to upload code snippets to GitHub,  just <ins>don't upload the entire project</ins>. This is a [link](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to another summary as an example. It is important to get the materials you need from Azure DevOps by monday, because we may need space for more students. Email LiveProjectDirector@LearnCodingAnywhere.com if you know you will need more time.
+The code summary is a useful tool for your job search. Think of it as a document that shows the most impressive things you did and learned over the course of the project. Try to gather screenshots and code snippets. Many people choose to use GitHub to organize their retrospective. It is ok to upload code snippets to GitHub,  just <ins>don't upload the entire project</ins>. This is a [link](https://github.com/BenjaminLSchwab/JobPlacementDashboard) to another summary as an example. It is important to get the materials you need from Azure DevOps by Monday, because we may need space for more students. Email LiveProjectDirector@LearnCodingAnywhere.com if you know you will need more time.
 
 - **Final Essay:** 
 (Last Friday, found in LMS)
